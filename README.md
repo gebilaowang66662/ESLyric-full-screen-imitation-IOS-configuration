@@ -193,9 +193,15 @@ ESLyric插件🔩和布局文件📁：
 
 这个路径
 
+![2c5bacc379310a55a7e928d7f14543a9832610b5](https://github.com/user-attachments/assets/56490666-80a7-4d5c-8161-a706bc987693)
+
+
 如果找不到，可以去安装文件夹找有没有 `profie` 这个文件夹，里面会有后面的
 
     eslyric-data\scripts
+
+![b9bdf403918fa0ec4115922e609759ee3c6ddbb5](https://github.com/user-attachments/assets/b60c8bd0-e5ce-44a4-bba0-2d89d9962e63)
+
 
 ![image](https://github.com/user-attachments/assets/7fd4ecc1-2047-4559-9222-7f11a8ddd409)
 
