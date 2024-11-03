@@ -289,6 +289,6 @@ ESLyric插件🔩和布局文件📁：
 
 🔗https://developer.apple.com/fonts/
 
-这个是`Spotify-Mix`的字体（只支持英文🔡，想支持其他字体得靠软件将其他的字体库合成）
+这个是`Spotify-Mix`的字体（只支持英文🔡，其他语言显示的怪怪的，想支持其他字体得靠软件将其他的字体库合成其他语言，我用的是Spotify-Mix（英文） + 微软雅黑（中文），就是上面显示的效果
 
 🔗https://en.bestfonts.pro/font/spotify-mix
