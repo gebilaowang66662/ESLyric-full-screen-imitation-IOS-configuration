@@ -285,10 +285,10 @@ ESLyric插件🔩和布局文件📁：
 
 # 9️⃣ 字体 🤠
 
-这个是`ios`的字体🔟
+这个是`iOS`的字体
 
 🔗https://developer.apple.com/fonts/
 
-这个是`spotify-mix`的字体（只支持英文🔡，想支持其他字体得靠软件将其他的字体库合成）
+这个是`Spotify-Mix`的字体（只支持英文🔡，想支持其他字体得靠软件将其他的字体库合成）
 
 🔗https://en.bestfonts.pro/font/spotify-mix
