@@ -101,7 +101,7 @@ ESLyric插件🔩和布局文件📁：
 ![A)RSOE(0 UBDWB2R7Z3NC34](https://github.com/user-attachments/assets/2a6aec40-05db-4eac-b010-79d74aa52cd6)
 
 
-彷的苹果界面📱，目前作者没有添加进度条还有播放按钮⏯，只能是这样
+彷的苹果界面📱，目前作者没有添加进度条，只能是这样
 
 下面的可以按照个人喜好调，要是想实现上图效果可以跟着调👣
 
