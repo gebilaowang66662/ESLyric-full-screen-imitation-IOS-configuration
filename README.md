@@ -161,7 +161,7 @@ ESLyric插件🔩和布局文件📁：
 
 右键界面🖱
 
-![Uploading CF1ZA67[]]MH030O{U[`UJ1.png…]()
+![91PHQ{N9Y0)C_{R3$E`}OG](https://github.com/user-attachments/assets/69a66162-61e4-41b2-9a0e-7084fcab54d2)
 
 
 
