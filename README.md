@@ -5,19 +5,46 @@
 🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
 
 
-        <panel layout="stack" name="自定义布局" orientation="horizonal">
-          <element type="text" caption=""anchor="left" height="100%" width="3%"/>
-            <element type="container" width="40%" anchor="vstretch" options="8" >
-              <element type="albumart" width="78%" height="55%" anchor="left" follow-background="1" options="4"/>
-              <element type="text" caption="" anchor="left" height="6%" width="78%"/>
-              <element type="text" caption="%title%" font-size="30" text-color="rgba(255,255,255,1)" text-align="left"anchor="left" height="5%" width="78%" nowrap="1"/>
-              <element type="text" caption="[%artist%]" font-size="25" text-color="rgba(255,255,255,0.5)" text-align="left" anchor="left" height="4%" width="78%" options="4"/>
-            </element>
-          <element type="text" caption=""anchor="left" height="100%" width="0%"/>
-          <element type="container" anchor="vstretch"  width="49%" options="4" >
-            <element type="lyric" text-align="left" anchor="stretch"/>
-          </element>
-        </panel>
+        <layout xmlns="https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/ESLyric/layout ./../Layout.xsd">
+    <panel layout="stack" name="Style 1" orientation="horizontal" features="1">
+      
+      
+        <container name="left-panel" layout="free" anchor="vfill" width="44%" min-width="600" hide-min="1">
+          
+          
+            <container name="meta" anchor="vfill,right" margin-right="12%" margin-bottom="320" width="72%" justify="middle">
+                    <albumart anchor="top" margin-top="75" width="100%" min-width="360" max-width="1000" aspect-ratio="1.0" stub="images/default.png" radius="20" use-stub="false" follow-background="1" overflow="hide"/>
+                    <label name="title" margin-top="90" caption="%title%" text-align="left" text-color="rgb(255,255,255)" font-size="30" width="100%" height="auto" loop="cycle" nowrap="1"/>
+                    <label name="artist" margin="0,14,0,0" caption="[%artist%]" text-align="left" text-color="rgb(255,255,255,0.5)" font-size="25" width="100%" height="auto" hide-empty="1" loop="cycle"/>
+            </container>
+          
+          <container name="length" layout="free" anchor="right,bottom" margin-bottom="275" width="72%" height="auto" margin-right="12%" >
+            <label name="progress2"  caption="$progress2(%playback_time_seconds%,%length_seconds%,56 ,-, )" text-align="left" text-color="rgb(255,255,255,0.8)" font-size="20" width="100%" height="auto" />
+            <label name="progress2"  caption="$progress2(%playback_time_seconds%,%length_seconds%,56 ,-,-)" text-align="left" text-color="rgb(255,255,255,0.3)" font-size="20" width="100%" height="auto" />
+          </container>
+          
+          <container name="length" orientation="horizontal" anchor="right,bottom" margin-bottom="225" width="72%" height="auto" margin-right="12%" >
+            <label name="playback_time" caption="%playback_time%" text-align="left" text-color="rgb(255,255,255,0.3)" font-size="20" width="20%" height="auto" margin-right="480"/>
+            <label name="playback_time_remaining"  caption="-%playback_time_remaining%" text-align="right" text-color="rgb(255,255,255,0.3)" font-size="20" width="20%" height="auto" />
+              </container>
+          
+            <container name="ctrl" orientation="horizontal" anchor="right,bottom" margin-bottom="65" width="90%" height="150" margin-right="3%">
+              <button background="images/stop.png" command="esl://Stop" width="60" aspect-ratio="1.0" overflow="hide"margin-right="90"/>   
+                  <button background="images/previous.png" command="mm://${Previous}" width="150" aspect-ratio="1.0"margin-right="40"/>
+                     <button background="$if($or($not(%isplaying%), %ispaused%),images/play.png,images/pause.png)" command="mm://${PlayOrPause}" width="150" aspect-ratio="1.0"/>
+                  <button background="images/next.png" command="mm://${Next}" width="150" aspect-ratio="1.0" margin-left="40"/>
+              <button background="images/Random.png" command="esl://${Random}" width="60" aspect-ratio="1.0" margin-left="90"/>
+            </container>
+        </container>
+      
+      
+        <container name="right-panel" anchor="vfill" width="*">
+          
+          
+          <lyric margin-left ="90" margin-right ="80" text-align="left" anchor="fill"/>
+        </container>
+    </panel>
+        </layout>
 
 
 可以复制进`.txt`，然后后缀改为`.xml`
