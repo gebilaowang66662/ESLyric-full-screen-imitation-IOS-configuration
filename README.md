@@ -180,7 +180,11 @@ ESLyric插件🔩和布局文件📁：
 
 ![image](https://github.com/user-attachments/assets/9fc7e46c-a947-402d-8a05-49bf4515944e)
 
-可以试一试改一下行高`height=" "`，或者字号`font-size=" "`，调整至合适的大小，改一下就保存一下，会实时显示的❗
+可以试一试改一下行高`height=" "`，或者字号`font-size=" "`等，具体看布局解释
+
+🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
+
+调整至合适的大小，改一下就保存一下，会实时显示的❗
 
 每个人的电脑屏幕还有字体设置大小不同就这样↕
 
