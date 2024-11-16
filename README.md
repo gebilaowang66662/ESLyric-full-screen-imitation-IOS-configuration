@@ -98,8 +98,7 @@ ESLyric插件🔩和布局文件📁：
 
 效果图🌌
 
-![A)RSOE(0 UBDWB2R7Z3NC34](https://github.com/user-attachments/assets/2a6aec40-05db-4eac-b010-79d74aa52cd6)
-
+![image](https://github.com/user-attachments/assets/7132a334-e3bb-46bc-b9b7-b1c12057e070)
 
 彷的苹果界面📱，目前作者没有添加进度条，只能是这样
 
