@@ -152,7 +152,7 @@ ESLyric插件🔩和布局文件📁：
 
 ![image](https://github.com/user-attachments/assets/d019c3c7-d820-4559-9fa6-1e856e879e42)
 
-然后回全屏面板参数选`Style 1`就行了
+然后回全屏面板参数选合适的分辨率就行，如果没有的话要自己调了
 
 右键界面🖱
 
@@ -160,7 +160,8 @@ ESLyric插件🔩和布局文件📁：
 
 右键界面🖱
 
-![91PHQ{N9Y0)C_{R3$E`}OG](https://github.com/user-attachments/assets/69a66162-61e4-41b2-9a0e-7084fcab54d2)
+![DNA2}1_{Q34CAY9`K0R6R{A](https://github.com/user-attachments/assets/5ceba2e2-24cb-4378-87fd-a5afe06ef49a)
+
 
 
 
