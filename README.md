@@ -95,7 +95,7 @@ ESLyric插件🔩和布局文件📁：
 ![image](https://github.com/user-attachments/assets/c72f7dcc-eb40-49d4-b8e6-3e26e4f8cfb5)
 
 
-然后把布局文件拖到🤏
+然后把布局文件layout拖到🤏
 
     C:\Users\（每个人的用户名字不一样）\AppData\Roaming\foobar2000-v2\eslyric-data\layout
 
@@ -138,7 +138,7 @@ ESLyric插件🔩和布局文件📁：
 
 ![image](https://github.com/user-attachments/assets/9fc7e46c-a947-402d-8a05-49bf4515944e)
 
-可以试一试改一下行高`height=" "`，或者字号`font-size=" "`等，具体看布局解释
+可以试一试改一下字号`font-size=" "`具体看布局解释
 
 🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
 
@@ -151,7 +151,7 @@ ESLyric插件🔩和布局文件📁：
 ![_467OPN%W5D1{{BEZ3YWJ)8](https://github.com/user-attachments/assets/2519cdd0-8e44-4bcb-922b-f9890c500bfe)
 
 
-用文本记事本打开刚刚放置的配置文件`main.xml`
+用文本记事本打开刚刚放置的配置文件`.xml`
 
         C:\Users\gebilaowang66662\AppData\Roaming\foobar2000-v2\eslyric-data\layout\Style1
 
