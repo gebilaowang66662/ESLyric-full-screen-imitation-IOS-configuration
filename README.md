@@ -16,8 +16,6 @@
 
 🔗https://github.com/ESLyric/release/releases
 
-![image](https://github.com/user-attachments/assets/9bf47e9a-3fbc-4e38-9393-b9fc62f86027)
-
 ![U{E( 4QB ZQ4IICLV7T~PGJ](https://github.com/user-attachments/assets/f053a7e9-7482-49d0-822d-5f3dc1ffdee9)
 
 
