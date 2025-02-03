@@ -110,7 +110,7 @@ ESLyric插件🔩和布局文件📁：
 
 ![image](https://github.com/user-attachments/assets/d019c3c7-d820-4559-9fa6-1e856e879e42)
 
-然后回全屏面板参数选合适的分辨率就行，如果没有的话要自己调了
+然后回全屏面板参数选合适的布局就行，如果没有的话要自己调了
 
 右键界面🖱
 
@@ -118,9 +118,7 @@ ESLyric插件🔩和布局文件📁：
 
 右键界面🖱
 
-![DNA2}1_{Q34CAY9`K0R6R{A](https://github.com/user-attachments/assets/5ceba2e2-24cb-4378-87fd-a5afe06ef49a)
-
-
+![image](https://github.com/user-attachments/assets/ac4a4fcb-39db-4ab1-a229-02f0116baec3)
 
 
 双击ESLyric界面可以切换/退出全屏，如果你懒得双击也可以给全屏模式🔳设置`快捷键`，也可以添加播放▶暂停⏸快捷键
@@ -138,7 +136,7 @@ ESLyric插件🔩和布局文件📁：
 
 ![image](https://github.com/user-attachments/assets/9fc7e46c-a947-402d-8a05-49bf4515944e)
 
-可以试一试改一下字号`font-size=" "`具体看布局解释
+可以试一试改一下字号`font-size=" "` .xml中有标注
 
 🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
 
@@ -271,15 +269,17 @@ ESLyric插件🔩和布局文件📁：
 
 ------------------------------------------------------------------------------------------
 
-# 8️⃣ 无歌词设置 😎
+# 8️⃣ 无歌词设置（纯音乐） 😎
 
-如果歌曲没有歌词显示🚫
+当没有歌词的时候布局会居中并隐藏歌词组件
 
-![image](https://github.com/user-attachments/assets/4363b780-39aa-4680-8982-a6d3233735d9)
+但是有时候插件还是会搜索歌词
 
-可以这里自定义🔧
+需要在这里添加
 
-![image](https://github.com/user-attachments/assets/d274ad23-5715-44db-8f7b-bdd0d5cb0236)
+![image](https://github.com/user-attachments/assets/c879d358-8098-48d5-81a1-6cf207041fe9)
+
+当这两个本地标签的歌词里面有（纯音乐）这三个字时，会停止搜索歌词
 
 ------------------------------------------------------------------------------------------
 
@@ -287,15 +287,15 @@ ESLyric插件🔩和布局文件📁：
 推荐
 Poppins-Black（西文） + NotoSansSC-ExtraBold 组合（需要工具将NotoSansSC-ExtraBold的西文替换成Poppins-Black）
 
-https://fonts.google.com/specimen/Poppins?query=Poppins
+🔗https://fonts.google.com/specimen/Poppins?query=Poppins
 
-https://fonts.google.com/noto/specimen/Noto+Sans+SC
+🔗https://fonts.google.com/noto/specimen/Noto+Sans+SC
 
 这个是`iOS`的字体
 
 安装方法
 
-https://www.bilibili.com/opus/724998399661703205
+🔗https://www.bilibili.com/opus/724998399661703205
 
 🔗https://developer.apple.com/fonts/
 
