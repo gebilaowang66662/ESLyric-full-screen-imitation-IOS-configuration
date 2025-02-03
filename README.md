@@ -148,6 +148,25 @@ ESLyric插件🔩和布局文件📁：
 
 ![image](https://github.com/user-attachments/assets/ac4a4fcb-39db-4ab1-a229-02f0116baec3)
 
+Mini窗口设置
+
+![XE`~SCE(02JLVK B5BE0}{I](https://github.com/user-attachments/assets/afa464af-6dcb-4ea6-b5c1-5b19018a6722)
+
+新增Mini窗口
+
+底栏添加Mini开关
+
+开始要在这里新建一个悬浮窗口
+
+![5JCVIQYSBN2($2A5JZD~A_X](https://github.com/user-attachments/assets/10b0ee3c-7c2e-4f77-94c4-ac4e8cb2ca0d)
+
+![)B9HZFOX2%3LLPNXA{S 1J](https://github.com/user-attachments/assets/b2c5d68d-c194-4975-b0b3-125596219660)
+
+当悬浮窗为无边框模式时，用鼠标中键拖动窗口
+
+窗口的快捷键
+
+![5(9{@C(NYM5LMPYJD_%8FWP](https://github.com/user-attachments/assets/3a6547ca-d9db-41ba-8545-aa58a4f5039c)
 
 双击ESLyric界面可以切换/退出全屏，如果你懒得双击也可以给全屏模式🔳设置`快捷键`，也可以添加播放▶暂停⏸快捷键
 
