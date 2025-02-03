@@ -284,11 +284,19 @@ ESLyric插件🔩和布局文件📁：
 ------------------------------------------------------------------------------------------
 
 # 9️⃣ 字体 🤠
+推荐
+Poppins-Black（西文） + NotoSansSC-ExtraBold 组合（需要工具将NotoSansSC-ExtraBold的西文替换成Poppins-Black）
+
+https://fonts.google.com/specimen/Poppins?query=Poppins
+
+https://fonts.google.com/noto/specimen/Noto+Sans+SC
 
 这个是`iOS`的字体
 
+安装方法
+
+https://www.bilibili.com/opus/724998399661703205
+
 🔗https://developer.apple.com/fonts/
 
-这个是`Spotify-Mix`的字体（只支持英文🔡，其他语言显示的怪怪的，想支持其他字体得靠软件将其他的字体库合成其他语言，我用的是Spotify-Mix（英文） + 微软雅黑（中文），就是上面显示的效果
 
-🔗https://en.bestfonts.pro/font/spotify-mix
