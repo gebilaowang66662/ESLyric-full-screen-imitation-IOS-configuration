@@ -1,7 +1,6 @@
 # 教程里面没什么时间更新，也大差不差，直接去下载配置文件摸索一下就知道了
 # There's not much time to update in the tutorial, and it's pretty much the same, just go and download the configuration file
 
-
 # 0️⃣ layout配置文件 🤓
 
 ⚙ESLyric自定义界面接口解释参考⚙
@@ -79,6 +78,8 @@ ESLyric插件🔩和布局文件📁：
 ![image](https://github.com/user-attachments/assets/363827c5-974f-4c07-8f05-07f1a943ad6d)
 
 ![image](https://github.com/user-attachments/assets/00d4f32d-1e9d-4919-90ca-e15373076da6)
+
+![image](https://github.com/user-attachments/assets/82de95fa-e019-4af8-93c0-0b77b67296e4)
 
 ![image](https://github.com/user-attachments/assets/687fac90-d661-483e-b50e-95cb4720c170)
 
