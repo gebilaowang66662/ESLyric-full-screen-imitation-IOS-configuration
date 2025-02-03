@@ -57,7 +57,7 @@ ESLyric插件🔩和布局文件📁：
 
 ![image](https://github.com/user-attachments/assets/5c3285d1-8e36-4a76-831f-855ce95f45d2)
 
-彷的苹果界面📱，目前作者没有添加进度条，只能是这样
+彷苹果界面📱
 
 下面的可以按照个人喜好调，要是想实现上图效果可以跟着调👣
 
