@@ -84,7 +84,30 @@ ESLyric插件🔩和布局文件📁：
 
 ![image](https://github.com/user-attachments/assets/5c3285d1-8e36-4a76-831f-855ce95f45d2)
 
-彷苹果界面📱
+把布局文件layout拖到🤏
+
+    C:\Users\（每个人的用户名字不一样）\AppData\Roaming\foobar2000-v2\eslyric-data\layout
+
+这个路径是安装版本的
+
+![XSFP0UBQ0F$T3C9 QG0 7S](https://github.com/user-attachments/assets/3b0a4c34-7b94-46c7-90c4-e9440d872407)
+
+
+如果找不到，可以去安装文件夹找有没有 `profie` 这个文件夹📁，这个是便携版的，里面会有后面的
+
+    eslyric-data\layout
+
+![image](https://github.com/user-attachments/assets/d019c3c7-d820-4559-9fa6-1e856e879e42)
+
+然后回全屏面板参数选合适的布局就行
+
+右键界面🖱
+
+![image](https://github.com/user-attachments/assets/e64b63ea-c67d-403c-a633-97273f3b69d5)
+
+右键界面🖱
+
+![image](https://github.com/user-attachments/assets/ac4a4fcb-39db-4ab1-a229-02f0116baec3)
 
 下面的可以按照个人喜好调，要是想实现上图效果可以跟着调👣
 
@@ -122,39 +145,11 @@ ESLyric插件🔩和布局文件📁：
 
 ![image](https://github.com/user-attachments/assets/c72f7dcc-eb40-49d4-b8e6-3e26e4f8cfb5)
 
-
-然后把布局文件layout拖到🤏
-
-    C:\Users\（每个人的用户名字不一样）\AppData\Roaming\foobar2000-v2\eslyric-data\layout
-
-这个路径是安装版本的
-
-![XSFP0UBQ0F$T3C9 QG0 7S](https://github.com/user-attachments/assets/3b0a4c34-7b94-46c7-90c4-e9440d872407)
-
-
-如果找不到，可以去安装文件夹找有没有 `profie` 这个文件夹📁，这个是便携版的，里面会有后面的
-
-    eslyric-data\layout
-
-![image](https://github.com/user-attachments/assets/d019c3c7-d820-4559-9fa6-1e856e879e42)
-
-然后回全屏面板参数选合适的布局就行，如果没有的话要自己调了
-
-右键界面🖱
-
-![image](https://github.com/user-attachments/assets/e64b63ea-c67d-403c-a633-97273f3b69d5)
-
-右键界面🖱
-
-![image](https://github.com/user-attachments/assets/ac4a4fcb-39db-4ab1-a229-02f0116baec3)
-
 Mini窗口设置
 
 ![XE`~SCE(02JLVK B5BE0}{I](https://github.com/user-attachments/assets/afa464af-6dcb-4ea6-b5c1-5b19018a6722)
 
-新增Mini窗口
-
-底栏添加Mini开关
+底栏界面有Mini开关
 
 开始要在这里新建一个悬浮窗口
 
