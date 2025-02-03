@@ -1,6 +1,33 @@
-# 教程里面没什么时间更新，也大差不差，直接去下载配置文件摸索一下就知道了
-# There's not much time to update in the tutorial, and it's pretty much the same, just go and download the configuration file
+# 预览
+目前提供了4种形式的界面，按需使用
 
+Mini窗口
+
+Apple music Mini.xml
+
+![{HUKZ6 8HD7VT3@ULNVE%83](https://github.com/user-attachments/assets/42969561-cabc-40b3-80d9-48f7a91b7d04)
+
+底栏
+
+Apple music Bottom bar.xml
+
+![5Y52~~7T(P))AJI5K}KPY~P](https://github.com/user-attachments/assets/193a2d4c-ff06-4c5c-96d1-63c86dfff1ed)
+
+竖屏
+
+Apple music Vertical .xml
+
+![未标题-1](https://github.com/user-attachments/assets/6e35f793-0c2b-446d-989c-e64b0a30e507)
+
+横屏
+
+Apple music Horizontal.xml
+
+![M(H6HKD}@}G~Y$OY1JJH_RS](https://github.com/user-attachments/assets/61980f0c-4b98-4066-a52a-6f8a52800faa)
+
+![image](https://github.com/user-attachments/assets/3037a6e3-71e2-47ac-b068-610cfc9276c7)
+
+------------------------------------------------------------------------------------------
 # 0️⃣ layout配置文件 🤓
 
 ⚙ESLyric自定义界面接口解释参考⚙
