@@ -296,10 +296,12 @@ Poppins-Black（英文西语） + NotoSansSC-ExtraBold(中日) + NotoSans-Black�
 
 这个是`iOS`的字体
 
-安装方法
+🔗https://developer.apple.com/fonts/
+
+ios字体安装方法
 
 🔗https://www.bilibili.com/opus/724998399661703205
 
-🔗https://developer.apple.com/fonts/
+
 
 
