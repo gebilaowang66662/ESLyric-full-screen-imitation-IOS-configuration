@@ -327,7 +327,7 @@ Mini窗口设置
 
 # 9️⃣ 字体 🤠
 推荐
-Poppins-Black（英文西语） + NotoSansSC-ExtraBold(中日) + NotoSans-Black（俄文）组合
+Poppins-Black（英文西语） + NotoSansSC-ExtraBold(中日) + NotoSans-Black（俄文）按需组合
 
 （需要字体工具将NotoSansSC-ExtraBold的英文西语替换成Poppins-Black，俄文替换成NotoSans-Black）
 
