@@ -286,11 +286,13 @@ ESLyric插件🔩和布局文件📁：
 
 # 9️⃣ 字体 🤠
 推荐
-Poppins-Black（西文） + NotoSansSC-ExtraBold 组合（需要工具将NotoSansSC-ExtraBold的西文替换成Poppins-Black）
+Poppins-Black（英文西语） + NotoSansSC-ExtraBold(中日) + NotoSans-Black（俄文）组合（需要工具将NotoSansSC-ExtraBold的英文西语替换成Poppins-Black，俄文替换成NotoSans-Black）
 
-🔗https://fonts.google.com/specimen/Poppins?query=Poppins
+（西文）🔗https://fonts.google.com/specimen/Poppins?query=Poppins
 
-🔗https://fonts.google.com/noto/specimen/Noto+Sans+SC
+（中日）🔗https://fonts.google.com/noto/specimen/Noto+Sans+SC   
+
+（俄文）🔗https://fonts.google.com/noto/specimen/Noto+Sans?lang=ru_Cyrl   
 
 这个是`iOS`的字体
 
