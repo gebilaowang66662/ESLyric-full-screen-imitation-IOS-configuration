@@ -345,6 +345,8 @@ ios字体安装方法
 
 🔗https://www.bilibili.com/opus/724998399661703205
 
+## Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration&type=Date)](https://star-history.com/#gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration&Date)
 
 
