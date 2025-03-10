@@ -1,5 +1,5 @@
 # 预览
-目前提供了4种形式的界面，按需使用
+目前提供了5种形式的界面，按需使用
 
 Mini窗口
 
@@ -23,9 +23,17 @@ Apple music Vertical .xml
 
 Apple music Horizontal.xml
 
-![M(H6HKD}@}G~Y$OY1JJH_RS](https://github.com/user-attachments/assets/61980f0c-4b98-4066-a52a-6f8a52800faa)
+![M(H6HKD}@}G~Y$OY1JJH_RS](https://github.com/user-attachments/assets/61980f0c-4b98-4066-a52a-6f8a52800faa)  
 
 ![image](https://github.com/user-attachments/assets/3037a6e3-71e2-47ac-b068-610cfc9276c7)
+
+无组件横屏竖屏
+
+Apple music Horizontal and Vertical No control （搭配已有底栏使用）
+
+![C6XFU~9K76(W 8J0U~F{{CW](https://github.com/user-attachments/assets/897c487d-d069-4e0a-9247-5b2c36f3aea6)
+
+![EKO}NIHK_8%{A1KF7MK$ KI](https://github.com/user-attachments/assets/36df4807-3353-4371-b3cb-65870f1f6cbc)
 
 ------------------------------------------------------------------------------------------
 # 0️⃣ layout配置文件 🤓
