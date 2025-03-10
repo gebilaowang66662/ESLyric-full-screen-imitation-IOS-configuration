@@ -27,9 +27,9 @@ Apple music Horizontal.xml
 
 ![image](https://github.com/user-attachments/assets/3037a6e3-71e2-47ac-b068-610cfc9276c7)
 
-无组件横屏竖屏
+无组件横屏竖屏（搭配已有底栏使用）
 
-Apple music Horizontal and Vertical No control （搭配已有底栏使用）
+Apple music Horizontal and Vertical No control 
 
 ![C6XFU~9K76(W 8J0U~F{{CW](https://github.com/user-attachments/assets/897c487d-d069-4e0a-9247-5b2c36f3aea6)
 
