@@ -35,6 +35,10 @@ Apple music Horizontal and Vertical No control
 
 ![EKO}NIHK_8%{A1KF7MK$ KI](https://github.com/user-attachments/assets/36df4807-3353-4371-b3cb-65870f1f6cbc)
 
+![K N_3Q)F87JDAZO~CJ1)UB8](https://github.com/user-attachments/assets/de32f2a0-a01d-4d53-8f6c-21061a8ab573)
+
+![S43$}{L$RR9}N4BFX XY~LJ](https://github.com/user-attachments/assets/cbe6f984-8089-4489-956a-41a004e916a4)
+
 ------------------------------------------------------------------------------------------
 # 0️⃣ layout配置文件 🤓
 
