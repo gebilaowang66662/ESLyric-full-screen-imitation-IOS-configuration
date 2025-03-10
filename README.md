@@ -212,6 +212,10 @@ Mini窗口设置
 
 ![(6XX%~{B)M)NG2SKGGQ_YFR](https://github.com/user-attachments/assets/8822ef8b-4b05-4c5e-a6b9-d277e2c4504d)
 
+附：自定义按钮
+
+![自定义按钮](https://github.com/user-attachments/assets/10824db4-c4e4-42db-ab75-f33d68ff6c84)
+
 
 ------------------------------------------------------------------------------------------
 
