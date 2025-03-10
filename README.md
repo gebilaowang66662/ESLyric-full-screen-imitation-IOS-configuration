@@ -214,6 +214,8 @@ Mini窗口设置
 
 附：自定义按钮
 
+🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
+
 ![自定义按钮](https://github.com/user-attachments/assets/10824db4-c4e4-42db-ab75-f33d68ff6c84)
 
 
