@@ -333,13 +333,21 @@ Mini窗口设置
 
 没有歌词的时候布局会居中并隐藏歌词组件
 
+需要满足三个条件
+
+1. `%UNSYNCED LYRICS%` `%LYRICS%` 两个歌词标签中，其中一个里面有`纯音乐`这三个字
+
+![image](https://github.com/user-attachments/assets/eb1c14f0-e9ae-4c61-a83e-0e1195588236)
+
+2.不能显示歌词
+
 当歌词里面有`纯音乐`这三个字的时候，可以去歌词处理添加`*纯音乐*` 
 
 ![image](https://github.com/user-attachments/assets/a34173bb-c365-46bb-86b7-95f738b1cf8d)
 
-但是有时候插件还是会搜索歌词
+3.不能搜索歌词
 
-需要在搜索过滤添加关键词
+需要在搜索过滤添加关键词  `%UNSYNCED LYRICS%` `%LYRICS%`  通配符匹配  `*纯音乐*`
 
 当这两个本地标签的歌词里面有（纯音乐）这三个字时，会停止搜索歌词
 
@@ -353,11 +361,23 @@ Poppins-Black（英文西语） + NotoSansSC-ExtraBold(中日) + NotoSans-Black�
 
 （需要字体工具将NotoSansSC-ExtraBold的英文西语替换成Poppins-Black，俄文替换成NotoSans-Black）
 
-（西文）🔗https://fonts.google.com/specimen/Poppins?query=Poppins
+Poppins（西文）：
 
-（中日）🔗https://fonts.google.com/noto/specimen/Noto+Sans+SC   
+（国内）🔗https://www.maoken.com/english/14631.html
+（魔法）🔗https://fonts.google.com/specimen/Poppins?query=Poppins   
 
-（俄文）🔗https://fonts.google.com/noto/specimen/Noto+Sans?lang=ru_Cyrl   
+思源黑体/Noto Sans（中日韩）：
+
+（国内）🔗https://www.maoken.com/freefonts/657.html
+（魔法）🔗https://fonts.google.com/noto/specimen/Noto+Sans+SC   
+
+濑户字体（中英文）：
+
+（国内）🔗https://www.fonts.net.cn/font-32756412228.html
+
+思源黑体/Noto Sans（俄文）：
+
+（魔法）🔗https://fonts.google.com/noto/specimen/Noto+Sans?lang=ru_Cyrl   
 
 这个是`iOS`的字体
 
