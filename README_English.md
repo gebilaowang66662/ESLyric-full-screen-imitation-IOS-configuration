@@ -203,58 +203,160 @@ Appendix: Custom buttons
 ------------------------------------------------------------------------------------------
 # 4️⃣ Word-by-word Lyrics Sources 💬  
 
-
+I am unaware of lyric sources for other regions, so only the installation method is provided here.
 
 Place files in:  
+
 `C:\Users\[Username]\AppData\Roaming\foobar2000-v2\eslyric-data\scripts`  
+
 ![image](https://github.com/user-attachments/assets/7fd4ecc1-2047-4559-9222-7f11a8ddd409)
 
-Critical settings:  
-- Disable `Convert to standard format`  
-![image](https://github.com/user-attachments/assets/3136593d-4451-43a5-8234-14e456995adc)  
-- Enable `EX` lyric sources  
-![image](https://github.com/user-attachments/assets/6b1725d1-18df-461c-b783-f550c4229444)  
-- Enable `Karaoke Mode` & `Enhanced Lyrics`  
-![image](https://github.com/user-attachments/assets/1edfc16e-71fd-4143-a549-2407988dcfea)
+If not found, check the installation directory for a `profile` folder containing:  
+
+    `eslyric-data\scripts `
+    
+![b9bdf403918fa0ec4115922e609759ee3c6ddbb5](https://github.com/user-attachments/assets/b60c8bd0-e5ce-44a4-bba0-2d89d9962e63)
+
+Remember to uncheck `Convert to standard format` 🚫 (skip if unavailable)
+
+![image](https://github.com/user-attachments/assets/3136593d-4451-43a5-8234-14e456995adc)
+
+Enable Word-by-word Lyrics Sources ✅:  
+
+![image](https://github.com/user-attachments/assets/6b1725d1-18df-461c-b783-f550c4229444)
+
+Enable `Enhanced Lyrics` under `Karaoke Mode`
+
+Since regular and fullscreen interfaces have independent settings, enable both ✅✅
+
+![image](https://github.com/user-attachments/assets/1edfc16e-71fd-4143-a549-2407988dcfea)  
+
+![image](https://github.com/user-attachments/assets/d8cef639-a24e-43bf-be0f-311aa612e765)
+
+When lyrics are found 🔍:  
+
+Save lyrics to audio files 📎  
+
+Right-click lyrics interface 🖱:  
+
+![image](https://github.com/user-attachments/assets/3d25fa3d-2d56-4fd8-9073-32a408058b59)
 
 ------------------------------------------------------------------------------------------
 # 5️⃣ Lyrics Filtering Rules 🤩  
-Remove redundant text (e.g., "Vocals: Jay Chou") using wildcards:  
+How to remove original singer info from lyrics? ❓🚮  
+
+As shown:  
+
+![image](https://github.com/user-attachments/assets/c54782e3-ebac-4c72-add9-046551cc2eba)
+
+Open software settings → Select `Wildcard Removal`
+
+Use `*` to represent multiple characters
+
+Example: To remove patterns like `演唱：林俊杰` at song beginnings, enter:
+
+`演唱：*` 🗿  
+
 ![image](https://github.com/user-attachments/assets/7b8caf75-5654-44bf-a634-dce61aa19ba7)
 
 ------------------------------------------------------------------------------------------
 # 6️⃣ Embed Album Art 😇  
-Recommended tool:  
-[Windows] Music Tag v1.0.3.1  
-🔗https://www.52pojie.cn/thread-1076546-1-1.html  
-![image](https://github.com/user-attachments/assets/4809c0ed-a5db-4279-bfad-9dfee15ea0b4)
+
+Embed album art for songs to prevent dark empty displays ◼  
+
+![image](https://github.com/user-attachments/assets/df4ea3e5-778d-463f-90f1-b1ab8945601e)
+
+Right-click interface🖱:
+
+![$Q5DNGMD76} (M`K)U%%@B3](https://github.com/user-attachments/assets/980ab659-7827-4cc3-8f27-56e553833ff8)
+
+![C1G`~GZ)ZSH_LRUSJGR4064](https://github.com/user-attachments/assets/c4cc8e60-66ca-43f7-9bf1-dd44f6d1d1e9)
 
 ------------------------------------------------------------------------------------------
 # 7️⃣ Tag-based Lyrics Search 🤨  
-Plugin searches using metadata tags📝:  
+This plugin searches lyrics using song `tag fields` 📝  
+
+(not by filenames). To correct mismatches:  
+
+Right-click 🖱 the bottom status bar → Select `Properties`
+
+Verify both fields  
+
 ![image](https://github.com/user-attachments/assets/e41846ad-73cf-4b3e-8dce-bf540d77c688)
 
+Search optimization🔍:  
+
+When multiple artists affect results:  
+
+Keep original song title
+  
+Manually add artists individually
+  
+![image](https://github.com/user-attachments/assets/dcf5efad-429b-4f58-ba5b-7bf576de7997)
+
 ------------------------------------------------------------------------------------------
-# 8️⃣ Instrumental Track Settings 😎  
-Three requirements for lyric-free display:  
-1. Add "纯音乐" in lyric tags  
-![image](https://github.com/user-attachments/assets/eb1c14f0-e9ae-4c61-a83e-0e1195588236)  
-2. Add filtering rule  
-![image](https://github.com/user-attachments/assets/a34173bb-c365-46bb-86b7-95f738b1cf8d)  
-3. Configure search filters  
+# 8️⃣ Instrumental Track Settings (No Lyrics) 😎  
+
+Lyric-free layout centers content and hides lyric components when:
+
+1.Either `%UNSYNCED LYRICS%` or `%LYRICS%` tag contains `纯音乐` (Instrumental)
+
+   (Other characters are also acceptable, used to mark instrumental music)
+
+![image](https://github.com/user-attachments/assets/eb1c14f0-e9ae-4c61-a83e-0e1195588236)
+
+2.Disable lyric display:
+
+Add `*纯音乐*` rule in lyric processing when tags contain `*纯音乐*`
+
+![image](https://github.com/user-attachments/assets/a34173bb-c365-46bb-86b7-95f738b1cf8d)
+
+3.Block lyric searches:  
+
+Add filter rules for tags:  
+
+`%UNSYNCED LYRICS%` `%LYRICS%`  
+
+With wildcard matching: `*纯音乐*`  
+
+System will stop searching lyrics when local tags contain "纯音乐"
+
 ![image](https://github.com/user-attachments/assets/c879d358-8098-48d5-81a1-6cf207041fe9)
 
-------------------------------------------------------------------------------------------
-# 9️⃣ Font Recommendations 🤠  
-Recommended font combinations:  
-- Poppins-Black (Western)  
-- NotoSansSC-ExtraBold (CJK)  
-- NotoSans-Black (Cyrillic)  
 
-Download links:  
-- Poppins: https://fonts.google.com/specimen/Poppins  
-- Noto Sans: https://fonts.google.com/noto/specimen/Noto+Sans+SC  
-- iOS Fonts: https://developer.apple.com/fonts/
+
+------------------------------------------------------------------------------------------
+
+# 9️⃣ Font Recommendations 🤠  
+
+Recommended combination:  
+
+`Poppins-Black` (Western languages) + `NotoSansSC-ExtraBold` (CJK) + `NotoSans-Black` (Cyrillic)  
+
+(Combine as needed)
+
+*(Requires font editing tools to replace Western characters in NotoSansSC-ExtraBold with Poppins-Black, and Cyrillic characters with NotoSans-Black)*
+
+## Font Sources
+
+**Poppins (Western):**  
+
+🔗https://fonts.google.com/specimen/Poppins?query=Poppins   
+
+**Noto Sans (CJK):**  
+
+🔗https://fonts.google.com/noto/specimen/Noto+Sans+SC   
+
+
+**Noto Sans (Cyrillic):**  
+
+🔗https://fonts.google.com/noto/specimen/Noto+Sans?lang=ru_Cyrl   
+
+## iOS System Fonts  
+
+🔗https://developer.apple.com/fonts/  
+
+------------------------------------------------------------------------------------------
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration&type=Date)](https://star-history.com/#gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration&Date)
