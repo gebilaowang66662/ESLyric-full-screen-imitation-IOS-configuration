@@ -46,6 +46,8 @@ Apple music Horizontal and Vertical No control
 
 🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
 
+------------------------------------------------------------------------------------------
+
 # 1️⃣ 下载 🧐
 
 要用新版的ESLyric插件💖  
@@ -116,8 +118,6 @@ ESLyric插件🔩和布局文件📁：
 右键界面🖱
 
 ![image](https://github.com/user-attachments/assets/e64b63ea-c67d-403c-a633-97273f3b69d5)
-
-右键界面🖱
 
 ![image](https://github.com/user-attachments/assets/ac4a4fcb-39db-4ab1-a229-02f0116baec3)
 
