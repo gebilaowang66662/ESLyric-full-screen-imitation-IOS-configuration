@@ -1,4 +1,10 @@
+[中文](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README.md))
+[English](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README_English.md))
+
+------------------------------------------------------------------------------------------
+
 # Preview
+
 Currently provides 5 interface formats for different needs:
 
 Mini Window  
