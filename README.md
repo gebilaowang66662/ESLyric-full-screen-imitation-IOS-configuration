@@ -1,3 +1,7 @@
+[中文](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README.md))
+[English](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README_English.md))
+
+------------------------------------------------------------------------------------------
 # 预览
 目前提供了5种形式的界面，按需使用
 
