@@ -9,25 +9,25 @@ Currently provides 5 interface formats for different needs:
 
 Mini Window  
 
-Apple music Mini.xml  
+Mini.xml  
 
-![{HUKZ6 8HD7VT3@ULNVE%83](https://github.com/user-attachments/assets/42969561-cabc-40b3-80d9-48f7a91b7d04)
+![GMY ~Z18$NGV7P7A_YP6Y{2](https://github.com/user-attachments/assets/e2a17b38-bbfc-478c-96a9-e1261d85a9ed)
 
 Bottom Bar  
 
-Apple music Bottom bar.xml  
+Bottom bar.xml  
 
 ![5Y52~~7T(P))AJI5K}KPY~P](https://github.com/user-attachments/assets/193a2d4c-ff06-4c5c-96d1-63c86dfff1ed)
 
 Vertical Screen  
 
-Apple music Vertical.xml  
+Vertical.xml  
 
 ![未标题-1](https://github.com/user-attachments/assets/6e35f793-0c2b-446d-989c-e64b0a30e507)
 
 Horizontal Screen  
 
-Apple music Horizontal.xml  
+Horizontal.xml  
 
 ![M(H6HKD}@}G~Y$OY1JJH_RS](https://github.com/user-attachments/assets/61980f0c-4b98-4066-a52a-6f8a52800faa)  
 
@@ -35,7 +35,7 @@ Apple music Horizontal.xml
 
 Control-free Horizontal/Vertical Screen (Use with existing bottom bar)  
 
-Apple music Horizontal and Vertical No control  
+Horizontal and Vertical No control  
 
 ![C6XFU~9K76(W 8J0U~F{{CW](https://github.com/user-attachments/assets/897c487d-d069-4e0a-9247-5b2c36f3aea6)  
 
