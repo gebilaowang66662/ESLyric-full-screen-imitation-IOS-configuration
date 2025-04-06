@@ -7,25 +7,25 @@
 
 Mini窗口
 
-Apple music Mini.xml
+Mini.xml
 
-![{HUKZ6 8HD7VT3@ULNVE%83](https://github.com/user-attachments/assets/42969561-cabc-40b3-80d9-48f7a91b7d04)
+![GMY ~Z18$NGV7P7A_YP6Y{2](https://github.com/user-attachments/assets/e2a17b38-bbfc-478c-96a9-e1261d85a9ed)
 
 底栏
 
-Apple music Bottom bar.xml
+Bottom bar.xml
 
 ![5Y52~~7T(P))AJI5K}KPY~P](https://github.com/user-attachments/assets/193a2d4c-ff06-4c5c-96d1-63c86dfff1ed)
 
 竖屏
 
-Apple music Vertical .xml
+Vertical .xml
 
 ![未标题-1](https://github.com/user-attachments/assets/6e35f793-0c2b-446d-989c-e64b0a30e507)
 
 横屏
 
-Apple music Horizontal.xml
+Horizontal.xml
 
 ![M(H6HKD}@}G~Y$OY1JJH_RS](https://github.com/user-attachments/assets/61980f0c-4b98-4066-a52a-6f8a52800faa)  
 
@@ -33,7 +33,7 @@ Apple music Horizontal.xml
 
 无组件横屏竖屏（搭配已有底栏使用）
 
-Apple music Horizontal and Vertical No control 
+Horizontal and Vertical No control 
 
 ![C6XFU~9K76(W 8J0U~F{{CW](https://github.com/user-attachments/assets/897c487d-d069-4e0a-9247-5b2c36f3aea6)
 
