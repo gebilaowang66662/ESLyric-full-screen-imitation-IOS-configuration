@@ -17,33 +17,33 @@ Bottom Bar
 
 Bottom bar.xml  
 
-![5Y52~~7T(P))AJI5K}KPY~P](https://github.com/user-attachments/assets/193a2d4c-ff06-4c5c-96d1-63c86dfff1ed)
+![1`${73~KE0HOCIOGM(8JJZ5](https://github.com/user-attachments/assets/bac7df9f-62dc-4837-9379-89449125a565)
 
 Vertical Screen  
 
 Vertical.xml  
 
-![未标题-1](https://github.com/user-attachments/assets/6e35f793-0c2b-446d-989c-e64b0a30e507)
+![RXGVRX$N04SF8 HGJF BEN9](https://github.com/user-attachments/assets/d28d0016-8cc0-4f19-8663-8844e9f9d129)
 
 Horizontal Screen  
 
 Horizontal.xml  
 
-![M(H6HKD}@}G~Y$OY1JJH_RS](https://github.com/user-attachments/assets/61980f0c-4b98-4066-a52a-6f8a52800faa)  
+![2~U(PO)NSB462P2`U9O97RL](https://github.com/user-attachments/assets/780bcbab-5d38-4e3a-aeb7-263311df32af)
 
-![image](https://github.com/user-attachments/assets/3037a6e3-71e2-47ac-b068-610cfc9276c7)
+![77@JA$B}ZPE_65U7%Z{X4SO](https://github.com/user-attachments/assets/4de81bcf-3f7b-4598-8eef-34b0015e9232)
 
 Control-free Horizontal/Vertical Screen (Use with existing bottom bar)  
 
 Horizontal and Vertical No control  
 
-![C6XFU~9K76(W 8J0U~F{{CW](https://github.com/user-attachments/assets/897c487d-d069-4e0a-9247-5b2c36f3aea6)  
+![QX}$YIGN(P%}YMYD V59L6J](https://github.com/user-attachments/assets/f4126f8b-a1cd-4bc5-b827-cde0dbec3109)
 
-![EKO}NIHK_8%{A1KF7MK$ KI](https://github.com/user-attachments/assets/36df4807-3353-4371-b3cb-65870f1f6cbc)  
+![D4{{7`$N7H8_3$_{)G8}T8O](https://github.com/user-attachments/assets/e97f11b9-ced3-48da-8ee8-d9f8d9bf94d0)
 
-![K N_3Q)F87JDAZO~CJ1)UB8](https://github.com/user-attachments/assets/de32f2a0-a01d-4d53-8f6c-21061a8ab573)  
+![3{ZLCK} O1Q537BGBL67`I5](https://github.com/user-attachments/assets/8e489964-702e-4f10-95e8-7df0926ba1f2)
 
-![S43$}{L$RR9}N4BFX XY~LJ](https://github.com/user-attachments/assets/cbe6f984-8089-4489-956a-41a004e916a4)
+![(G1IVDS}}8WXVHU )%SF1{W](https://github.com/user-attachments/assets/eac3cae9-8011-4fa6-839d-e2cb775a3b44)
 
 ------------------------------------------------------------------------------------------
 # 0️⃣ Layout Configuration Files 🤓  
