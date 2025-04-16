@@ -11,17 +11,20 @@ Mini.xml
 
 ![GMY ~Z18$NGV7P7A_YP6Y{2](https://github.com/user-attachments/assets/e2a17b38-bbfc-478c-96a9-e1261d85a9ed)
 
+
 底栏
 
 Bottom bar.xml
 
 ![1`${73~KE0HOCIOGM(8JJZ5](https://github.com/user-attachments/assets/bac7df9f-62dc-4837-9379-89449125a565)
 
+
 竖屏
 
 Vertical .xml
 
 ![RXGVRX$N04SF8 HGJF BEN9](https://github.com/user-attachments/assets/d28d0016-8cc0-4f19-8663-8844e9f9d129)
+
 
 横屏
 
