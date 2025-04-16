@@ -33,6 +33,12 @@ Horizontal.xml
 
 ![77@JA$B}ZPE_65U7%Z{X4SO](https://github.com/user-attachments/assets/4de81bcf-3f7b-4598-8eef-34b0015e9232)
 
+Horizontal 2.xml
+
+![image](https://github.com/user-attachments/assets/37db2290-1de4-4f5c-a521-dfb0f2aa68af)
+
+![image](https://github.com/user-attachments/assets/664fd3d0-ccb4-4f6c-8017-9215d4161cd6)
+
 Control-free Horizontal/Vertical Screen (Use with existing bottom bar)  
 
 Horizontal and Vertical No control  
