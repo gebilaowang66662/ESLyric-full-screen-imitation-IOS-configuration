@@ -168,7 +168,13 @@ First, create a new floating window here
 
 When the floating window is in borderless mode, use the mouse middle button to drag the window
 
-Window hotkeys
+![image](https://github.com/user-attachments/assets/a7a3af3c-4e36-497f-908e-0ba5262e8d35)
+
+When the name of the floating window is modified, the corresponding 'locales.xml' should also modify the button path, otherwise the button will not take effect if it has no effect
+
+![M$1UXH$}VE5M62Z{N_~HXTN](https://github.com/user-attachments/assets/0501568a-9a69-41d5-9754-cdf33e37f35f)
+
+The shortcut path of the window button
 
 ![5(9{@C(NYM5LMPYJD_%8FWP](https://github.com/user-attachments/assets/3a6547ca-d9db-41ba-8545-aa58a4f5039c)
 
