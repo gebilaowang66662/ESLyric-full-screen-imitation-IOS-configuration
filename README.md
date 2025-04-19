@@ -185,7 +185,13 @@ Mini窗口设置
 
 当悬浮窗为无边框模式时，用鼠标中键拖动窗口
 
-窗口的快捷键
+![image](https://github.com/user-attachments/assets/a7a3af3c-4e36-497f-908e-0ba5262e8d35)
+
+当修改了悬浮窗名字后，相应'locales.xml'也要修改按钮路径，不然按钮没有作用不生效
+
+![M$1UXH$}VE5M62Z{N_~HXTN](https://github.com/user-attachments/assets/0501568a-9a69-41d5-9754-cdf33e37f35f)
+
+窗口按钮的快捷键路径
 
 ![5(9{@C(NYM5LMPYJD_%8FWP](https://github.com/user-attachments/assets/3a6547ca-d9db-41ba-8545-aa58a4f5039c)
 
