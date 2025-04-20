@@ -156,6 +156,10 @@ Dynamic blur effect🔮:
 
 Mini window settings:  
 
+Need to download it here
+
+https://github.com/ttsping/foo_flowin
+
 ![XE`~SCE(02JLVK B5BE0}{I](https://github.com/user-attachments/assets/afa464af-6dcb-4ea6-b5c1-5b19018a6722)
 
 There is a Mini toggle in the bottom bar interface
