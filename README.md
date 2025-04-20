@@ -173,6 +173,10 @@ ESLyric插件🔩和布局文件📁：
 
 Mini窗口设置
 
+需要到这里下载
+
+https://github.com/ttsping/foo_flowin
+
 ![XE`~SCE(02JLVK B5BE0}{I](https://github.com/user-attachments/assets/afa464af-6dcb-4ea6-b5c1-5b19018a6722)
 
 底栏界面有Mini开关
