@@ -1,34 +1,33 @@
-[中文](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README.md)
-[English](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README_English.md)
+[简体中文](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README.zh-CN.md)
+[English](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README.md)
 
 ------------------------------------------------------------------------------------------
+
 # プレビュー
-現在、5種類のインターフェース形式が提供されており、用途に応じて使用可能
 
-Miniウィンドウ
+現在、さまざまなニーズに対応する5つのインターフェース形式を提供しています：
 
-Mini.xml
+ミニウィンドウ  
+
+Mini.xml  
 
 ![GMY ~Z18$NGV7P7A_YP6Y{2](https://github.com/user-attachments/assets/e2a17b38-bbfc-478c-96a9-e1261d85a9ed)
 
+ボトムバー  
 
-下部バー
-
-Bottom bar.xml
+Bottom bar.xml  
 
 ![1`${73~KE0HOCIOGM(8JJZ5](https://github.com/user-attachments/assets/bac7df9f-62dc-4837-9379-89449125a565)
 
+縦画面  
 
-縦画面
-
-Vertical .xml
+Vertical.xml  
 
 ![RXGVRX$N04SF8 HGJF BEN9](https://github.com/user-attachments/assets/d28d0016-8cc0-4f19-8663-8844e9f9d129)
 
+横画面  
 
-横画面
-
-Horizontal.xml
+Horizontal.xml  
 
 ![2~U(PO)NSB462P2`U9O97RL](https://github.com/user-attachments/assets/780bcbab-5d38-4e3a-aeb7-263311df32af)
 
@@ -40,10 +39,9 @@ Horizontal 2.xml
 
 ![image](https://github.com/user-attachments/assets/664fd3d0-ccb4-4f6c-8017-9215d4161cd6)
 
+コントロールなし横画面/縦画面（既存のボトムバーと一緒に使用）  
 
-コンポーネントなし横画面縦画面（既存の下部バーと組み合わせて使用）
-
-Horizontal and Vertical No control 
+Horizontal and Vertical No control  
 
 ![QX}$YIGN(P%}YMYD V59L6J](https://github.com/user-attachments/assets/f4126f8b-a1cd-4bc5-b827-cde0dbec3109)
 
@@ -54,100 +52,84 @@ Horizontal and Vertical No control
 ![(G1IVDS}}8WXVHU )%SF1{W](https://github.com/user-attachments/assets/eac3cae9-8011-4fa6-839d-e2cb775a3b44)
 
 ------------------------------------------------------------------------------------------
-# 0️⃣ layout設定ファイル 🤓
 
-⚙ESLyricカスタムインターフェースAPI解説参考⚙
+# 0️⃣ レイアウト構成ファイル 🤓  
+
+⚙ESLyric カスタムインターフェース API リファレンス⚙  
 
 🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
 
 ------------------------------------------------------------------------------------------
 
-# 1️⃣ ダウンロード 🧐
+# 1️⃣ ダウンロード 🧐  
+最新のESLyricプラグインが必要です 💖  
 
-新しいESLyricプラグインを使用する💖  
+作者のGitHubプロジェクト（アップデート確認用）：  
 
-作者GitHubプロジェクトで更新がないかチェック可能：
-
-🔗https://github.com/ESLyric/release/releases
+🔗https://github.com/ESLyric/release/releases  
 
 ![U{E( 4QB ZQ4IICLV7T~PGJ](https://github.com/user-attachments/assets/f053a7e9-7482-49d0-822d-5f3dc1ffdee9)
 
-
-上記でダウンロードできない場合はこちらで
-
-ESLyricプラグイン🔩とレイアウトファイル📁：
-
-🔗https://wwpt.lanzoul.com/b02ihth1de
-
-🔑パスワード:7cx5
-    
 ------------------------------------------------------------------------------------------
+# 2️⃣ インストール 🤖  
 
-# 2️⃣ インストール 🤖
-
-下図の通りプラグイン🔩をインストールしソフトを再起動🔄
+プラグイン🔩を示された通りにインストールし、ソフトを再起動🔄  
 
 ![image](https://github.com/user-attachments/assets/0b41147a-ee0c-406f-b380-8d0dbd50ffdb)
 
-インストール後プラグイン画面が表示されない場合❓
+インストール後にプラグインインターフェースが表示されない場合は？❓
 
-ビューで`クイック編集モード`をオンにする
+表示メニューで`クイック編集モード`を有効にする  
 
 ![image](https://github.com/user-attachments/assets/bbd8b7ad-5ecd-4860-932e-9ad7085ddbd1)
 
-右クリックして`ESLyric`を選択して置換
+右クリックで`ESLyric`を選択：  
 
 ![image](https://github.com/user-attachments/assets/8fbecf24-14a2-4425-a4b8-f234597766f7)
 
-出てきたら`クイック編集モード`をオフに戻す
+セットアップ後は`クイック編集モード`を無効にする：  
 
 ![image](https://github.com/user-attachments/assets/0a9083a2-a7f9-4d9e-b1f0-d264791d28c0)
 
 ------------------------------------------------------------------------------------------
+# 3️⃣ 設定 😴  
 
-# 3️⃣ 設定 😴
-
-
-完成イメージ🌌
+デモ効果🌌:  
 
 ![image](https://github.com/user-attachments/assets/5c3285d1-8e36-4a76-831f-855ce95f45d2)
 
-レイアウトファイルlayoutを以下の場所にドラッグ🤏
+レイアウトファイルの配置場所🤏:  
 
-    C:\Users\（各ユーザー名は異なります）\AppData\Roaming\foobar2000-v2\eslyric-data\layout
+`C:\Users\[Username]\AppData\Roaming\foobar2000-v2\eslyric-data\layout`  
 
-このパスは通常版のもの
+(インストール版パス)  
 
 ![XSFP0UBQ0F$T3C9 QG0 7S](https://github.com/user-attachments/assets/3b0a4c34-7b94-46c7-90c4-e9440d872407)
 
+ポータブル版の場合、以下の`profile`フォルダ内にあることを確認してください：  
 
-見つからない場合はインストールフォルダ内に`profie`フォルダ📁がないか確認、ポータブル版の場合ここに
-
-    eslyric-data\layout
-
-がある
+`eslyric-data\layout`  
 
 ![image](https://github.com/user-attachments/assets/d019c3c7-d820-4559-9fa6-1e856e879e42)
 
-その後フルスクリーンパネルのパラメータから適切なレイアウトを選択
+フルスクリーンパネルのパラメータでレイアウトを選択：  
 
-画面右クリック🖱
+インターフェースを右クリック🖱:  
 
-![image](https://github.com/user-attachments/assets/e64b63ea-c67d-403c-a633-97273f3b69d5)
+![image](https://github.com/user-attachments/assets/e64b63ea-c67d-403c-a633-97273f3b69d5)  
 
 ![image](https://github.com/user-attachments/assets/ac4a4fcb-39db-4ab1-a229-02f0116baec3)
 
-下部の設定は個人の好みで調整可能。上図のような効果を出したい場合は同じように調整👣
 
-各ユーザーのPCの画面サイズ🖥💻により数値は異なるため、自分で調整して似た感じにすればよい。🔧
+以下の設定は個人の好みによって調整できます。上記画像の効果を得るために、以下の調整を参考にしてください👣  
+各人のパソコン画面サイズが異なるため🖥💻数値は変わる可能性があるので、見た目を近づけるために調整してください🔧  
+外部インターフェースとフルスクリーンインターフェースは独立した設定を持つため、まずフルスクリーンモードを入る必要があります🔳
 
-外部と全画面インターフェースは別々の設定なのでまず`全画面モード`🔳へ
-
-画面右クリック🖱
+インターフェースを右クリック🖱
 
 ![image](https://github.com/user-attachments/assets/1dfecb88-ea89-4cbd-893b-867fde2baed0)
 
-画面右クリック🖱
+インターフェースを右クリック🖱
 
 ![image](https://github.com/user-attachments/assets/37808317-3ad7-47bd-afee-6d78ff4ba673)
 
@@ -163,37 +145,37 @@ ESLyricプラグイン🔩とレイアウトファイル📁：
 
 ![image](https://github.com/user-attachments/assets/09693ac2-c83e-499f-a49f-729c3d9e5cd9)
 
-`ハイライト歌詞`がずれている場合は、ここで調整🔧
+歌詞のハイライト調整🔧:  
 
 ![image](https://github.com/user-attachments/assets/0fd13294-fa67-43b4-83dd-6e85af034ceb)
 
 ![image](https://github.com/user-attachments/assets/6b18e9d3-8962-4470-a886-90ed209c78f9)
 
-`動的ぼかし`も試してみて🔮
+動的ぼかし効果🔮:  
 
 ![image](https://github.com/user-attachments/assets/c72f7dcc-eb40-49d4-b8e6-3e26e4f8cfb5)
 
-Miniウィンドウ設定
+ミニウィンドウ設定:  
 
-ここからダウンロードが必要
+ここからダウンロードしてください
 
 https://github.com/ttsping/foo_flowin
 
 ![XE`~SCE(02JLVK B5BE0}{I](https://github.com/user-attachments/assets/afa464af-6dcb-4ea6-b5c1-5b19018a6722)
 
-下部バーにMini切替スイッチあり
+ボトムバーインターフェースにMini切替がある
 
-最初にここで新しいフローティングウィンドウを作成
+まず、ここで新しいフローティングウィンドウを作成
 
 ![5JCVIQYSBN2($2A5JZD~A_X](https://github.com/user-attachments/assets/10b0ee3c-7c2e-4f77-94c4-ac4e8cb2ca0d)
 
 ![)B9HZFOX2%3LLPNXA{S 1J](https://github.com/user-attachments/assets/b2c5d68d-c194-4975-b0b3-125596219660)
 
-フローティングウィンドウがボーダーレスの時、マウス中ボタンドラッグで移動可能
+フローティングウィンドウが枠なしモードのときは、マウス中ボタンでウィンドウをドラッグ
 
 ![image](https://github.com/user-attachments/assets/a7a3af3c-4e36-497f-908e-0ba5262e8d35)
 
-フローティングウィンドウ名を変更した場合、対応する'locales.xml'のボタンパスも修正必要、さもないとボタンが機能しない
+フローティングウィンドウの名前が変更された場合、対応する`locales.xml`もボタンパスを変更する必要があります。そうでないとボタンは機能しません。
 
 ![M$1UXH$}VE5M62Z{N_~HXTN](https://github.com/user-attachments/assets/0501568a-9a69-41d5-9754-cdf33e37f35f)
 
@@ -201,9 +183,9 @@ https://github.com/ttsping/foo_flowin
 
 ![5(9{@C(NYM5LMPYJD_%8FWP](https://github.com/user-attachments/assets/3a6547ca-d9db-41ba-8545-aa58a4f5039c)
 
-ESLyric画面のダブルクリックで全画面切替/終了。面倒なら全画面モード🔳に`ショートカットキー`設定可能、再生▶停止⏸ショートカットキーも追加可能
+ESLyricのインターフェースをダブルクリックでフルスクリーン切替/終了。ダブルクリックが面倒なら、フルスクリーンモード🔳のホットキーや再生▶停止⏸のホットキーを設定できます。
 
-`ショートカットキー`は個人の好みで❤
+ホットキーは個人の好みに合わせて調整してください❤
 
 ![image](https://github.com/user-attachments/assets/087f2366-ac3d-4f4f-8717-3d2da4c9951a)
 
@@ -211,213 +193,192 @@ ESLyric画面のダブルクリックで全画面切替/終了。面倒なら全
 
 ![image](https://github.com/user-attachments/assets/4afaab25-7a59-4d0c-85db-88acb186373f)
 
-
-左のタイトルなどの行間が狭くフォントが半分しか表示されない場合🚫
+歌詞が省略される問題（例：左側タイトルやフォントの高さが半分しか表示されない）🚫が発生した場合
 
 ![image](https://github.com/user-attachments/assets/9fc7e46c-a947-402d-8a05-49bf4515944e)
 
-`.xml`のフォントサイズ`font-size=" "`を変更してみる。注釈あり
+フォントサイズ`font-size=" "`を変更してみてください（.xmlファイル内に注釈あり）
 
 🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
 
-適当なサイズに調整し保存すれば即時反映❗
+適切なサイズに調整してください - 保存後すぐに画面に反映されます❗
 
-PCやフォント設定により異なるため↕
+フォントの表示は画面と設定によって異なります↕
 
-`レイアウト要素識別表示`をオンにして調整補助可
+調整の助けにレイアウト要素マーカーの表示を有効にする
 
 ![_467OPN%W5D1{{BEZ3YWJ)8](https://github.com/user-attachments/assets/2519cdd0-8e44-4bcb-922b-f9890c500bfe)
 
-
-先ほど置いた設定ファイル`.xml`をテキストエディタで開く
+設定ファイル.xml（場所）をテキストエディターで開く
 
         C:\Users\gebilaowang66662\AppData\Roaming\foobar2000-v2\eslyric-data\layout\Style1
 
-
-以下のパラメータを調整🔢 
+下記のパラメータを調整🔢
 
 ![(6XX%~{B)M)NG2SKGGQ_YFR](https://github.com/user-attachments/assets/8822ef8b-4b05-4c5e-a6b9-d277e2c4504d)
 
-付録：カスタムボタン
+付録: カスタムボタン
 
 🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
 
-![カスタムボタン](https://github.com/user-attachments/assets/10824db4-c4e4-42db-ab75-f33d68ff6c84)
-
+![自定义按钮](https://github.com/user-attachments/assets/10824db4-c4e4-42db-ab75-f33d68ff6c84)
 
 ------------------------------------------------------------------------------------------
+# 4️⃣ 単語ごとの歌詞ソース 💬  
 
-# 4️⃣ 歌詞単語単位ソース 💬
+他地域の歌詞ソースは不明のため、ここには導入方法のみ記載。
 
-以下は逐語歌詞ソース
+ファイル配置場所:  
 
-元アドレス：
-
-🔗https://github.com/Robotxm/ESLyric-LyricsSource
-
-![image](https://github.com/user-attachments/assets/712a7c06-ed8a-4ad1-9c87-731fa1b601d5)
-
-上記でダウンロードできない場合はこちらで⬇
-
-🔗https://wwpt.lanzoul.com/b02ihth1de https://wwpt.lanzoul.com/b02ihth1de
-
-🔑パスワード:7cx5
-
-ダウンロード後解凍📂
-
-当プラグインは新バージョンなので`current`を選択
-
-![image](https://github.com/user-attachments/assets/2e7affcd-08ec-45d1-bf96-a6916f5547a6)
-
-中には`酷狗`、`网易云`、`QQ`の逐語ソースがある
-
-以下のパスに配置
-
-    C:\Users\（各ユーザー名は異なります）\AppData\Roaming\foobar2000-v2\eslyric-data\scripts
+`C:\Users\[Username]\AppData\Roaming\foobar2000-v2\eslyric-data\scripts`  
 
 ![image](https://github.com/user-attachments/assets/7fd4ecc1-2047-4559-9222-7f11a8ddd409)
 
-見つからない場合はインストールフォルダ内に`profie`フォルダがないか確認、ここに
+見つからない場合、インストールディレクトリの`profile`フォルダ内に以下を確認：  
 
-    eslyric-data\scripts
-
-がある
-
+    `eslyric-data\scripts`
+    
 ![b9bdf403918fa0ec4115922e609759ee3c6ddbb5](https://github.com/user-attachments/assets/b60c8bd0-e5ce-44a4-bba0-2d89d9962e63)
 
-`標準フォーマットに変換`のチェックを外す🚫、なければ無視
+`標準形式に変換`のチェックを外すことを忘れないでください🚫（無ければスキップ）
 
 ![image](https://github.com/user-attachments/assets/3136593d-4451-43a5-8234-14e456995adc)
 
-`EX`ソースはチェック✅
+単語ごとの歌詞ソースを有効にする✅:  
 
 ![image](https://github.com/user-attachments/assets/6b1725d1-18df-461c-b783-f550c4229444)
 
-`EX`ソースのみが逐語対応。酷狗の逐語は運次第🗿
+`カラオケモード`の中の`拡張歌詞`を有効にする
 
-`カラオケモード`の下の`強化歌詞`もONに
+通常のインターフェースとフルスクリーンは独立した設定なので、両方有効にしてください✅✅
 
-全画面と外部インターフェースは別設定のため両方ON✅✅
-
-![image](https://github.com/user-attachments/assets/1edfc16e-71fd-4143-a549-2407988dcfea)
+![image](https://github.com/user-attachments/assets/1edfc16e-71fd-4143-a549-2407988dcfea)  
 
 ![image](https://github.com/user-attachments/assets/d8cef639-a24e-43bf-be0f-311aa612e765)
 
-プラグインが歌詞を検索した後🔍
+歌詞が見つかったら🔍:  
 
-歌詞を曲ファイルに保存可能📎
+歌詞を音声ファイルに保存📎  
 
-歌詞画面を右クリック🖱
+歌詞インターフェースを右クリック🖱:  
 
 ![image](https://github.com/user-attachments/assets/3d25fa3d-2d56-4fd8-9073-32a408058b59)
 
-
 ------------------------------------------------------------------------------------------
+# 5️⃣ 歌詞フィルタールール 🤩  
+歌詞からオリジナル歌手情報を削除する方法？❓🚮  
 
-# 5️⃣ 歌詞ルール 🤩
-
-歌詞上の原唱などを除去する方法❓🚮
-
-下図のように
+以下のように：
 
 ![image](https://github.com/user-attachments/assets/c54782e3-ebac-4c72-add9-046551cc2eba)
 
-ソフト設定でワイルドカード除去を選択、`*`は任意の文字列
+ソフトウェア設定を開き→`ワイルドカード削除`を選択
 
-たとえば`演唱：林俊杰`のように多くの曲の頭に付いている場合は
+`*`は複数文字を表す
 
-`演唱：*`と入力🗿
+例：曲の頭に`演唱：林俊杰`のような表記を削除したい場合、以下を入力:
+
+`演唱：*` 🗿  
 
 ![image](https://github.com/user-attachments/assets/7b8caf75-5654-44bf-a634-dce61aa19ba7)
 
 ------------------------------------------------------------------------------------------
+# 6️⃣ アルバムアートを埋め込み 😇  
 
-# 6️⃣ アートワーク埋め込み 😇
-
-曲にアートワークを埋めていないと真っ黒で見づらい◼
+曲にアルバムアートを埋め込むことで暗く空白の表示を防ぐ◼  
 
 ![image](https://github.com/user-attachments/assets/df4ea3e5-778d-463f-90f1-b1ab8945601e)
 
-[Windows] 音楽タグ v1.0.3.1—ローカル音楽に歌詞とアルバムアートを埋め込み！
+インターフェースを右クリック🖱:
 
-🔗https://www.52pojie.cn/thread-1076546-1-1.html
+![$Q5DNGMD76} (M`K)U%%@B3](https://github.com/user-attachments/assets/980ab659-7827-4cc3-8f27-56e553833ff8)
 
-![image](https://github.com/user-attachments/assets/4809c0ed-a5db-4279-bfad-9dfee15ea0b4)
+![C1G`~GZ)ZSH_LRUSJGR4064](https://github.com/user-attachments/assets/c4cc8e60-66ca-43f7-9bf1-dd44f6d1d1e9)
 
 ------------------------------------------------------------------------------------------
+# 7️⃣ タグベース歌詞検索 🤨  
+このプラグインは曲の`タグフィールド`📝を使って歌詞を検索します  
 
-# 7️⃣ プラグイン読み込み 🤨
+（ファイル名ではありません）。不一致を修正するには：  
 
-このプラグインは歌詞を`タグフィールド`📝から読み取る
+下部ステータスバーを右クリック🖱→`プロパティ`を選択
 
-ファイル名では検索しないため、違う場合は右クリック🖱最下部の`プロパティ`で二つのフィールドを正しく修正
+両フィールドを確認
 
 ![image](https://github.com/user-attachments/assets/e41846ad-73cf-4b3e-8dce-bf540d77c688)
 
-歌手が多すぎると検索結果に影響、曲名は変えずに歌手を一人ずつ追加して検索🔍可能
+検索の最適化🔍:  
+
+複数のアーティストが影響を与える場合：
+
+元の曲名を維持し
+
+アーティストを手動で個別に追加する
 
 ![image](https://github.com/user-attachments/assets/dcf5efad-429b-4f58-ba5b-7bf576de7997)
 
 ------------------------------------------------------------------------------------------
+# 8️⃣ インストゥルメンタル設定（歌詞なし）😎  
 
-# 8️⃣ 歌詞なし設定（純音楽） 😎
+歌詞なしレイアウトは内容を中央に配置し、歌詞コンポーネントを隠します。以下の場合：
 
-歌詞なしの場合、レイアウトは中央寄せとなり歌詞コンポーネントを隠す
+1.`%UNSYNCED LYRICS%` または `%LYRICS%` タグに `纯音乐`（インストゥルメンタル）が含まれる場合
 
-3つの条件を満たす必要あり
-
-1. `%UNSYNCED LYRICS%` `%LYRICS%` のいずれかのタグに`純音楽`という文字が含まれること
+   （他の文字も可、インストゥルメンタル音楽を示すために使用）
 
 ![image](https://github.com/user-attachments/assets/eb1c14f0-e9ae-4c61-a83e-0e1195588236)
 
-2. 歌詞は表示しないこと
+2.歌詞表示を無効化：
 
-歌詞に`純音楽`がある場合、歌詞処理に`*純音楽*`を追加可能
-
+`*纯音乐*`ルールを歌詞処理時に追加
+      
 ![image](https://github.com/user-attachments/assets/a34173bb-c365-46bb-86b7-95f738b1cf8d)
 
-3. 歌詞検索をしないこと
+3.歌詞検索をブロック:  
 
-検索フィルターに `%UNSYNCED LYRICS%` `%LYRICS%` のワイルドカード `*純音楽*`を追加
+タグに対してフィルタールールを追加:  
 
-これら二つのローカルタグに`純音楽`がある場合、歌詞検索を停止
+`%UNSYNCED LYRICS%` `%LYRICS%`  
+
+ワイルドカードマッチング: `*纯音乐*`  
+
+ローカルタグに"纯音乐"があるとき、システムは歌詞検索を停止する
 
 ![image](https://github.com/user-attachments/assets/c879d358-8098-48d5-81a1-6cf207041fe9)
 
 ------------------------------------------------------------------------------------------
 
-# 9️⃣ フォント 🤠
-推奨
-Poppins-Black（英語・スペイン語） + NotoSansSC-ExtraBold(中国語・日本語) + NotoSans-Black（ロシア語）を必要に応じて組み合わせ
+# 9️⃣ フォント推奨 🤠  
 
-（NotoSansSC-ExtraBoldの英語・スペイン語をPoppins-Blackに、ロシア語をNotoSans-Blackにフォントツールで置き換えが必要）
+推奨組み合わせ:  
 
-Poppins（西洋文字）：
+`Poppins-Black`（西洋言語用）+ `NotoSansSC-ExtraBold`（CJK用）+ `NotoSans-Black`（キリル文字用）  
 
-（国内）🔗https://www.maoken.com/english/14631.html
-（Google）🔗https://fonts.google.com/specimen/Poppins?query=Poppins   
+（必要に応じて組み合わせてください）
 
-思源黑体/Noto Sans（中日韓）：
+＊（西洋文字を NotoSansSC-ExtraBold の中で Poppins-Black に、キリル文字を NotoSans-Black に置き換えるためフォント編集ツールが必要です）
 
-（国内）🔗https://www.maoken.com/freefonts/657.html
-（Google）🔗https://fonts.google.com/noto/specimen/Noto+Sans+SC   
+## フォント入手先
 
-瀬戸フォント（中英文）：
+**Poppins（西洋）:**  
 
-（国内）🔗https://www.fonts.net.cn/font-32756412228.html
+🔗https://fonts.google.com/specimen/Poppins?query=Poppins   
 
-思源黑体/Noto Sans（ロシア語）：
+**Noto Sans（CJK）:**  
 
-（Google）🔗https://fonts.google.com/noto/specimen/Noto+Sans?lang=ru_Cyrl   
+🔗https://fonts.google.com/noto/specimen/Noto+Sans+SC   
 
-iOS用フォント
 
-🔗https://developer.apple.com/fonts/
+**Noto Sans（キリル）:**  
 
-iOSフォントインストール方法
+🔗https://fonts.google.com/noto/specimen/Noto+Sans?lang=ru_Cyrl   
 
-🔗https://www.bilibili.com/opus/724998399661703205
+**iOSシステムフォント**     
 
-## Star History
+🔗https://developer.apple.com/fonts/  
 
+------------------------------------------------------------------------------------------
+
+## スター履歴
 [![Star History Chart](https://api.star-history.com/svg?repos=gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration&type=Date)](https://star-history.com/#gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration&Date)
+--------------------------------
