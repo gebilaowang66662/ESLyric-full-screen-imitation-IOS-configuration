@@ -52,7 +52,6 @@ Horizontal and Vertical No control
 ![(G1IVDS}}8WXVHU )%SF1{W](https://github.com/user-attachments/assets/eac3cae9-8011-4fa6-839d-e2cb775a3b44)
 
 ------------------------------------------------------------------------------------------
-
 # 0️⃣ Layout Configuration Files 🤓  
 
 ⚙ESLyric Custom Interface API Reference⚙  
