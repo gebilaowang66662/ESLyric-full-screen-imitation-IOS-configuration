@@ -1,5 +1,5 @@
-[中文](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README.md)
-[English](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README_English.md)
+[中文](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README.zh-CN.md)
+[English](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README.md)
 
 ------------------------------------------------------------------------------------------
 
