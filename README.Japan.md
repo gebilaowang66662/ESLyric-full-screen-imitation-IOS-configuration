@@ -242,14 +242,6 @@ PCやフォント設定により異なるため↕
 
 他の地域の歌詞ソースについては不明なので、ここではインストール方法のみを説明します。
 
-ダウンロード後解凍📂
-
-当プラグインは新バージョンなので`current`を選択
-
-![image](https://github.com/user-attachments/assets/2e7affcd-08ec-45d1-bf96-a6916f5547a6)
-
-中には`酷狗`、`网易云`、`QQ`の逐語ソースがある
-
 以下のパスに配置
 
     C:\Users\（各ユーザー名は異なります）\AppData\Roaming\foobar2000-v2\eslyric-data\scripts
