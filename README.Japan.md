@@ -240,13 +240,7 @@ PCやフォント設定により異なるため↕
 
 # 4️⃣ 歌詞単語単位ソース 💬
 
-以下は逐語歌詞ソース
-
-元アドレス：
-
-🔗https://github.com/Robotxm/ESLyric-LyricsSource
-
-![image](https://github.com/user-attachments/assets/712a7c06-ed8a-4ad1-9c87-731fa1b601d5)
+他の地域の歌詞ソースについては不明なので、ここではインストール方法のみを説明します。
 
 ダウンロード後解凍📂
 
