@@ -1,8 +1,9 @@
-[中文](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README.md)  
+[简体中文](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README.md)  
 [English](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README_English.md)
 
 ------------------------------------------------------------------------------------------
 # 預覽  
+
 目前提供了5種形式的介面，按需使用
 
 Mini視窗
@@ -71,15 +72,6 @@ Horizontal and Vertical No control
 🔗https://github.com/ESLyric/release/releases
 
 ![U{E( 4QB ZQ4IICLV7T~PGJ](https://github.com/user-attachments/assets/f053a7e9-7482-49d0-822d-5f3dc1ffdee9)
-
-
-上面下不了的可以在這下
-
-ESLyric插件🔩和布局文件📁：
-
-🔗https://wwpt.lanzoul.com/b02ihth1de
-
-🔑密碼:7cx5
     
 ------------------------------------------------------------------------------------------
 
@@ -255,12 +247,6 @@ https://github.com/ttsping/foo_flowin
 
 ![image](https://github.com/user-attachments/assets/712a7c06-ed8a-4ad1-9c87-731fa1b601d5)
 
-上面下不了的可以在這下⬇
-
-🔗https://wwpt.lanzoul.com/b02ihth1de https://wwpt.lanzoul.com/b02ihth1de
-
-🔑密碼:7cx5
-
 下好解壓📂
 
 因為我們這個插件是新版，選`current`
@@ -331,11 +317,11 @@ https://github.com/ttsping/foo_flowin
 
 ![image](https://github.com/user-attachments/assets/df4ea3e5-778d-463f-90f1-b1ab8945601e)
 
-[Windows] 音樂標籤 v1.0.3.1—給本地音樂內建歌詞和專輯封面！
+右鍵介面🖱
 
-🔗https://www.52pojie.cn/thread-1076546-1-1.html
+![$Q5DNGMD76} (M`K)U%%@B3](https://github.com/user-attachments/assets/980ab659-7827-4cc3-8f27-56e553833ff8)
 
-![image](https://github.com/user-attachments/assets/4809c0ed-a5db-4279-bfad-9dfee15ea0b4)
+![C1G`~GZ)ZSH_LRUSJGR4064](https://github.com/user-attachments/assets/c4cc8e60-66ca-43f7-9bf1-dd44f6d1d1e9)
 
 ------------------------------------------------------------------------------------------
 
@@ -387,33 +373,25 @@ Poppins-Black（英文西語） + NotoSansSC-ExtraBold(中日) + NotoSans-Black�
 
 Poppins（西文）：
 
-（國內）🔗https://www.maoken.com/english/14631.html  
-（魔法）🔗https://fonts.google.com/specimen/Poppins?query=Poppins   
+🔗https://fonts.google.com/specimen/Poppins?query=Poppins   
 
 思源黑體/Noto Sans（中日韩）：
 
-（國內）🔗https://www.maoken.com/freefonts/657.html  
-（魔法）🔗https://fonts.google.com/noto/specimen/Noto+Sans+SC   
+🔗https://fonts.google.com/noto/specimen/Noto+Sans+SC   
 
 濑户字体（中英文）：
 
-（國內）🔗https://www.fonts.net.cn/font-32756412228.html
+🔗https://www.fonts.net.cn/font-32756412228.html
 
 思源黑體/Noto Sans（俄文）：
 
-（魔法）🔗https://fonts.google.com/noto/specimen/Noto+Sans?lang=ru_Cyrl   
+🔗https://fonts.google.com/noto/specimen/Noto+Sans?lang=ru_Cyrl   
 
 這個是`iOS`的字體
 
 🔗https://developer.apple.com/fonts/
 
-ios字體安裝方法
-
-🔗https://www.bilibili.com/opus/724998399661703205
-
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration&type=Date)](https://star-history.com/#gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration&Date)
 
----
-Powered by Pollinations.AI free text APIs. [Support our mission](https://pollinations.ai/redirect/kofi) to keep AI accessible for everyone.
