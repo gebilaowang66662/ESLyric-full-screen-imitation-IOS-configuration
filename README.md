@@ -2,7 +2,6 @@
 [English](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration/blob/main/README.md)
 
 ------------------------------------------------------------------------------------------
-
 # Preview
 
 Currently provides 5 interface formats for different needs:
