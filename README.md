@@ -227,7 +227,11 @@ Appendix: Custom buttons
 ------------------------------------------------------------------------------------------
 # 4️⃣ Word-by-word Lyrics Sources 💬  
 
-I am unaware of lyric sources for other regions, so only the installation method is provided here.
+There is a lyric source here, but it has been a bit long, and I don't know if the lyric source is invalid.
+
+![36GPS{8P959CDK5)(`{Z%~7](https://github.com/user-attachments/assets/a60bdf57-bd29-4ec4-82fd-5cc0f48b3494)
+
+Here's how to install the file source
 
 Place files in:  
 
