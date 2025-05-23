@@ -250,7 +250,7 @@ https://github.com/ttsping/foo_flowin
 # 4️⃣ 逐字歌词源 💬
 这里有歌词源，但是时间有点久，不知道歌词源是否是失效的
 
-![36GPS{8P959CDK5)(`{Z%~7](https://github.com/user-attachments/assets/03aff043-7467-4ba7-8aa1-6f647c584471)
+![UR4SNJVPXB)8V}2ABLF(A}Q](https://github.com/user-attachments/assets/2866db24-b2c7-451c-976a-81a7ff58d19e)
 
 下面是文件源的安装方法
 
