@@ -338,6 +338,14 @@ https://github.com/ttsping/foo_flowin
 
 ![image](https://github.com/user-attachments/assets/df4ea3e5-778d-463f-90f1-b1ab8945601e)
 
+可以在这里手动加封面
+
+![$Q5DNGMD76} (M`K)U%%@B3](https://github.com/user-attachments/assets/980ab659-7827-4cc3-8f27-56e553833ff8)
+
+![C1G`~GZ)ZSH_LRUSJGR4064](https://github.com/user-attachments/assets/c4cc8e60-66ca-43f7-9bf1-dd44f6d1d1e9)
+
+下面是网络匹配标签
+
 [Windows] 音乐标签 v1.0.3.1—给本地音乐内置歌词和专辑封面！
 
 🔗https://www.52pojie.cn/thread-1076546-1-1.html
