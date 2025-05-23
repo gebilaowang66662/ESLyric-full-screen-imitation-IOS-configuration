@@ -242,7 +242,7 @@ https://github.com/ttsping/foo_flowin
 # 4️⃣ 逐字歌詞源 💬
 這裡有歌詞源，但是時間有點久，不知道歌詞源是否是失效的
 
-![UR4SNJVPXB)8V}2ABLF(A}Q](https://github.com/user-attachments/assets/3fffd6c5-c5a5-45ef-864d-78f822cd8b21)
+![UR4SNJVPXB)8V}2ABLF(A}Q](https://github.com/user-attachments/assets/1e651fb8-a713-40ff-8d73-b362d49b42a7)
 
 下麵是文件源的安裝方法
 
