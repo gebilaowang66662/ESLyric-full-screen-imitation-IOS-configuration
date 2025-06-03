@@ -199,6 +199,10 @@ https://github.com/ttsping/foo_flowin
 
 ![5(9{@C(NYM5LMPYJD_%8FWP](https://github.com/user-attachments/assets/3a6547ca-d9db-41ba-8545-aa58a4f5039c)
 
+在這裡輸入要轉換的內容這裡有個水平滾動可以試試
+
+![FWK(7(6I@_H8BBINK$~WA_0](https://github.com/user-attachments/assets/a0f8e53a-add3-45a8-91c6-354c321f2174)
+
 雙擊ESLyric介面可以切換/退出全螢幕，如果你懶得雙擊也可以給全螢幕模式🔳設定`快速鍵`，也可以加播放▶暫停⏸快速鍵
 
 `快速鍵`個人喜好調❤
