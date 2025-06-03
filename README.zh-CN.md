@@ -179,6 +179,8 @@ ESLyric插件🔩和布局文件📁：
 
 ![image](https://github.com/user-attachments/assets/c72f7dcc-eb40-49d4-b8e6-3e26e4f8cfb5)
 
+
+
 Mini窗口设置
 
 需要到这里下载
@@ -207,6 +209,12 @@ https://github.com/ttsping/foo_flowin
 
 ![5(9{@C(NYM5LMPYJD_%8FWP](https://github.com/user-attachments/assets/3a6547ca-d9db-41ba-8545-aa58a4f5039c)
 
+这里有个水平滚动可以试试
+
+![FWK(7(6I@_H8BBINK$~WA_0](https://github.com/user-attachments/assets/a0f8e53a-add3-45a8-91c6-354c321f2174)
+
+
+
 双击ESLyric界面可以切换/退出全屏，如果你懒得双击也可以给全屏模式🔳设置`快捷键`，也可以添加播放▶暂停⏸快捷键
 
 `快捷键`个人喜好调❤
@@ -216,6 +224,7 @@ https://github.com/ttsping/foo_flowin
 ![image](https://github.com/user-attachments/assets/6d3b0392-1d3e-42d1-8041-db3b62d8f37b)
 
 ![image](https://github.com/user-attachments/assets/4afaab25-7a59-4d0c-85db-88acb186373f)
+
 
 
 如果你们出现了左侧标题等行高字体显示一半，显示不全🚫
@@ -243,6 +252,8 @@ https://github.com/ttsping/foo_flowin
 调整下图参数🔢 
 
 ![(6XX%~{B)M)NG2SKGGQ_YFR](https://github.com/user-attachments/assets/8822ef8b-4b05-4c5e-a6b9-d277e2c4504d)
+
+
 
 附：自定义按钮
 
