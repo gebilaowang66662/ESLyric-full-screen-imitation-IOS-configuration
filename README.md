@@ -14,6 +14,12 @@ Mini.xml
 
 ![GMY ~Z18$NGV7P7A_YP6Y{2](https://github.com/user-attachments/assets/e2a17b38-bbfc-478c-96a9-e1261d85a9ed)
 
+![3IR~IZ)@Y~I~82TIJ1O BYE](https://github.com/user-attachments/assets/00f4abdd-ae2e-4b8e-937d-f2ad1da1b716)
+
+![W_`XK{5_9V106@ATR 34GK2](https://github.com/user-attachments/assets/2980c3a8-5594-404c-b071-bcf0561f91cf)
+
+![J2}1@4O624WGCG2H{F@13W](https://github.com/user-attachments/assets/37e517be-a88f-4786-858e-916be01a632b)
+
 Bottom Bar  
 
 Bottom bar.xml  
