@@ -162,6 +162,8 @@ Dynamic blur effect🔮:
 
 ![image](https://github.com/user-attachments/assets/c72f7dcc-eb40-49d4-b8e6-3e26e4f8cfb5)
 
+
+
 Mini window settings:  
 
 Need to download it here
@@ -189,6 +191,12 @@ When the name of the floating window is modified, the corresponding 'locales.xml
 The shortcut path of the window button
 
 ![5(9{@C(NYM5LMPYJD_%8FWP](https://github.com/user-attachments/assets/3a6547ca-d9db-41ba-8545-aa58a4f5039c)
+
+Here's a horizontal scroll to try
+
+![FWK(7(6I@_H8BBINK$~WA_0](https://github.com/user-attachments/assets/a0f8e53a-add3-45a8-91c6-354c321f2174)
+
+
 
 Double-click the ESLyric interface to toggle/exit full screen. If you prefer not to double-click, you can set a hotkey for Full Screen Mode 🔳 or add play ▶ pause ⏸ hotkeys
 
