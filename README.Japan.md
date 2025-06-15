@@ -241,11 +241,48 @@ PCやフォント設定により異なるため↕
 
 ![(6XX%~{B)M)NG2SKGGQ_YFR](https://github.com/user-attachments/assets/8822ef8b-4b05-4c5e-a6b9-d277e2c4504d)
 
-付録：カスタムボタン
+# 付録
+
+カスタムボタン
 
 🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
 
 ![カスタムボタン](https://github.com/user-attachments/assets/10824db4-c4e4-42db-ab75-f33d68ff6c84)
+
+歌詞ツールチップの表示
+
+マウスカーソルを進行バーの上に置くと、その位置の上に該当する歌詞がツールチップとして表示されます。クリックすると、そのフレーズの先頭から再生されます。
+
+![3IR~IZ)@Y~I~82TIJ1O BYE](https://github.com/user-attachments/assets/00f4abdd-ae2e-4b8e-937d-f2ad1da1b716)
+
+当機能が有効かつ曲に歌詞が存在する場合、クリックでツールチップに表示された行の先頭から再生されます。
+
+ただし、任意のタイムポイントに自由にシークすることはできません。
+
+この機能が不要な場合は、進行バーを含む `.xml` ファイルで無効にできます。
+
+`show-lyric-tooltip="1"` を `show-lyric-tooltip="0"` に変更してください。（1 は有効、0 は無効）
+
+（この機能を利用するには ESLyric 1.0.3.5 以上が必要です https://github.com/ESLyric/release/releases/tag/1.0.3.5）
+
+![WZO74PYO_GOQY)TK(TZ7H)F](https://github.com/user-attachments/assets/6133fa4f-a935-47f8-9ee3-544b38392988)
+
+スペクトラム表示
+
+`Horizontal 2.xml` レイアウトにスペクトラムバーが追加されました。
+
+(この機能を利用するには ESLyric 1.0.2.2 以上が必要です https://github.com/ESLyric/release/releases/tag/1.0.2.2)
+
+古いバージョンではスペクトラムが表示されないだけで、動作に影響はありません（ただし ESLyric 1.0.1.5 以上が必要です）
+
+![6PL%XH~{5S(260VXZ(O5LP9](https://github.com/user-attachments/assets/ed729c4a-1568-40b8-a5ad-f15e494f63f6)
+
+この表示が不要な場合は `Horizontal 2.xml` を編集して
+
+`visibility="1"` を `visibility="0"` に変更してください。（1 は表示、0 は非表示）
+
+![O_ HN O@_NL8Y3_P NPG](https://github.com/user-attachments/assets/7f22d864-c1b7-4820-8086-5c3c1759425e)
+
 
 
 ------------------------------------------------------------------------------------------
