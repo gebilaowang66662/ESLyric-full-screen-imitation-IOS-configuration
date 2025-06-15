@@ -241,7 +241,7 @@ PCやフォント設定により異なるため↕
 
 ![(6XX%~{B)M)NG2SKGGQ_YFR](https://github.com/user-attachments/assets/8822ef8b-4b05-4c5e-a6b9-d277e2c4504d)
 
-# 付録
+## 付録
 
 カスタムボタン
 
