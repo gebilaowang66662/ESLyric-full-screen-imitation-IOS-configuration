@@ -232,11 +232,46 @@ Adjust the parameters shown below🔢
 
 ![(6XX%~{B)M)NG2SKGGQ_YFR](https://github.com/user-attachments/assets/8822ef8b-4b05-4c5e-a6b9-d277e2c4504d)
 
-Appendix: Custom buttons
+------------------------------------------------------------------------------------------
+# Appendix
+
+Custom buttons
 
 🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
 
 ![自定义按钮](https://github.com/user-attachments/assets/10824db4-c4e4-42db-ab75-f33d68ff6c84)
+
+Show lyric tooltip
+
+When the mouse pointer hovers over the progress bar, a lyric will be displayed above the hovering position, and when clicked, it will play from the beginning of the sentence
+
+![3IR~IZ)@Y~I~82TIJ1O BYE](https://github.com/user-attachments/assets/00f4abdd-ae2e-4b8e-937d-f2ad1da1b716)
+
+When lyric levitation is enabled and the song has lyrics, it will play from the beginning of the hovering sentence when clicked, and cannot be freely dragged to a certain point in time
+
+If you don't like it, you can go to the ' .xml ' file with a progress bar to close
+
+Change `show-lyric-tooltip="1"` to 0 (1 is on, 0 is off)
+
+(requires ESLyric1.0.3.5 or later https://github.com/ESLyric/release/releases/tag/1.0.3.5 )
+
+![WZO74PYO_GOQY)TK(TZ7H)F](https://github.com/user-attachments/assets/6133fa4f-a935-47f8-9ee3-544b38392988)
+
+Spectrum
+
+Spectrum strips have been added to the Horizontal 2.xml layout
+
+(requires ESLyric1.0.2.2 or later https://github.com/ESLyric/release/releases/tag/1.0.2.2 )
+
+The old version just won't be displayed, and it doesn't affect it (it still needs to be used with ESLyric 1.0.1.5 or later)
+
+![6PL%XH~{5S(260VXZ(O5LP9](https://github.com/user-attachments/assets/ed729c4a-1568-40b8-a5ad-f15e494f63f6)
+
+If you don't like it, you can go to Horizontal 2.xml close
+
+Change visibility="1" to 0 (1 is on, 0 is off)
+
+![O_ HN O@_NL8Y3_P NPG](https://github.com/user-attachments/assets/7f22d864-c1b7-4820-8086-5c3c1759425e)
 
 ------------------------------------------------------------------------------------------
 # 4️⃣ Word-by-word Lyrics Sources 💬  
