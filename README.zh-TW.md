@@ -240,12 +240,49 @@ https://github.com/ttsping/foo_flowin
 
 ![(6XX%~{B)M)NG2SKGGQ_YFR](https://github.com/user-attachments/assets/8822ef8b-4b05-4c5e-a6b9-d277e2c4504d)
 
-附：自訂按鈕
+------------------------------------------------------------------------------------------
+
+# 附
+
+自訂按鈕
 
 🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
 
 ![自訂按鈕](https://github.com/user-attachments/assets/10824db4-c4e4-42db-ab75-f33d68ff6c84)
 
+歌詞懸浮提示
+
+鼠標指針懸浮在進度條上麵時，懸浮所在位置上方會有歌詞的提示，點擊時會從句子開頭播放
+
+![3IR~IZ)@Y~I~82TIJ1O BYE](https://github.com/user-attachments/assets/00f4abdd-ae2e-4b8e-937d-f2ad1da1b716)
+
+![W_`XK{5_9V106@ATR 34GK2](https://github.com/user-attachments/assets/2980c3a8-5594-404c-b071-bcf0561f91cf)
+
+當啟用歌詞懸浮，並歌曲擁有歌詞，點擊時會從懸浮的句子開頭播放，並不能自由拖動到某一時間點
+
+如果不喜歡可以去有進度條的 ` .xml` 文件關閉
+
+將 `show-lyric-tooltip=”1” ` 改爲0（1是開啟，0是關閉）
+
+(需要 ESLyric1.0.3.5 以上版本 https://github.com/ESLyric/release/releases/tag/1.0.3.5 )
+
+![WZO74PYO_GOQY)TK(TZ7H)F](https://github.com/user-attachments/assets/6133fa4f-a935-47f8-9ee3-544b38392988)
+
+頻譜
+
+Horizontal 2.xml 佈局新增頻譜條
+
+(需要 ESLyric1.0.2.2 以上版本 https://github.com/ESLyric/release/releases/tag/1.0.2.2 )
+
+老版本隻是不會顯示，沒有影響（還是要搭配ESLyric 1.0.1.5以上版本使用）
+
+![6PL%XH~{5S(260VXZ(O5LP9](https://github.com/user-attachments/assets/ed729c4a-1568-40b8-a5ad-f15e494f63f6)
+
+如果不喜歡可以去Horizontal 2.xml關閉
+
+將 visibility="1" 改爲0（1是開啟，0是關閉）
+
+![O_ HN O@_NL8Y3_P NPG](https://github.com/user-attachments/assets/7f22d864-c1b7-4820-8086-5c3c1759425e)
 
 ------------------------------------------------------------------------------------------
 
