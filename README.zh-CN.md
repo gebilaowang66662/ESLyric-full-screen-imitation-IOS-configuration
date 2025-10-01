@@ -49,7 +49,7 @@ Horizontal 2.xml
 ![image](https://github.com/user-attachments/assets/664fd3d0-ccb4-4f6c-8017-9215d4161cd6)
 
 
-无组件Horizontal 2（搭配已有底栏使用）
+无组件 Horizontal 2（搭配已有底栏使用）
 
 Horizontal 2 No control.xml 
 
