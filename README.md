@@ -46,6 +46,12 @@ Horizontal 2.xml
 
 ![image](https://github.com/user-attachments/assets/664fd3d0-ccb4-4f6c-8017-9215d4161cd6)
 
+Horizontal 2 No control.xml (Use with existing bottom bar)  
+
+<img width="2560" height="1390" alt="CG809)5( 2}5)BOT15K6@7" src="https://github.com/user-attachments/assets/ec044e98-2d07-4974-a12d-615a9a8087e7" />
+
+<img width="2560" height="1390" alt="$U(EE$ZGBQG}9{NBIDVRES9" src="https://github.com/user-attachments/assets/e30b7195-9d93-496d-9611-475e6bbbcb0b" />
+
 Control-free Horizontal/Vertical Screen (Use with existing bottom bar)  
 
 Horizontal and Vertical No control  
