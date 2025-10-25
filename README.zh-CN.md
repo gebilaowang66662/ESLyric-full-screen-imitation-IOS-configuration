@@ -11,13 +11,10 @@ Mini窗口
 
 Mini.xml
 
-![GMY ~Z18$NGV7P7A_YP6Y{2](https://github.com/user-attachments/assets/e2a17b38-bbfc-478c-96a9-e1261d85a9ed)
-
-![3IR~IZ)@Y~I~82TIJ1O BYE](https://github.com/user-attachments/assets/00f4abdd-ae2e-4b8e-937d-f2ad1da1b716)
-
-![W_`XK{5_9V106@ATR 34GK2](https://github.com/user-attachments/assets/2980c3a8-5594-404c-b071-bcf0561f91cf)
-
-![J2}1@4O624WGCG2H{F@13W](https://github.com/user-attachments/assets/37e517be-a88f-4786-858e-916be01a632b)
+<img width="442" height="252" alt="$X 23(V1)T2}R)2%9 P~6HQ" src="https://github.com/user-attachments/assets/730ec11e-b61c-4bea-82bd-e2fd7ec58c4b" />
+<img width="442" height="353" alt="61LU~@0)AW`BA9AM~1LYC 7" src="https://github.com/user-attachments/assets/75b209a5-433c-4f81-b20f-16a4e4c4fe9b" />
+<img width="442" height="352" alt="6IZAM)CGH}DG1L2ST8I%U)4" src="https://github.com/user-attachments/assets/e83547f8-cb94-47c9-b65e-0fb300bb93cc" />
+<img width="442" height="430" alt="@FWN ZR)MEXZ8GVG@K1H0M" src="https://github.com/user-attachments/assets/d8090c2d-2b17-4841-ad01-1a1ac5b54edc" />
 
 
 底栏
