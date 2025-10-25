@@ -56,7 +56,7 @@ Horizontal 2 No control.xml
 
 コンポーネントなし横画面縦画面（既存の下部バーと組み合わせて使用）
 
-Horizontal and Vertical No control 
+Horizontal and Vertical No control.xml
 
 ![QX}$YIGN(P%}YMYD V59L6J](https://github.com/user-attachments/assets/f4126f8b-a1cd-4bc5-b827-cde0dbec3109)
 
