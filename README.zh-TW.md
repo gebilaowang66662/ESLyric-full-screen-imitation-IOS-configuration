@@ -317,6 +317,7 @@ Horizontal 2.xml 佈局新增頻譜條
 當停止播放時，會顯示預設圖片，但背景不會跟隨動態模糊，需要這樣設定，其他頁面同理
 
 把這個貼上到這裡
+
 .\profile\eslyric-data\layout\Style1\images\default.png
 
 <img width="1827" height="638" alt="2S7% FJ$OTPDK4ZLA%DAT5M" src="https://github.com/user-attachments/assets/db3b8afe-116b-4123-87c3-a51eefcff25d" />
