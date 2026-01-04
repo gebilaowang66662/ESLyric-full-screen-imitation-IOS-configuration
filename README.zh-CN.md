@@ -328,6 +328,12 @@ Horizontal 2.xml 布局新增频谱条
 
 ![image](https://github.com/user-attachments/assets/c879d358-8098-48d5-81a1-6cf207041fe9)
 
+## 无播放待机状态背景
+
+当停止播放时，会显示默认图片，但是背景不跟随动态模糊，需要这样设置，其他页面同理
+
+<img width="1827" height="638" alt="2S7% FJ$OTPDK4ZLA%DAT5M" src="https://github.com/user-attachments/assets/db3b8afe-116b-4123-87c3-a51eefcff25d" />
+
 ------------------------------------------------------------------------------------------
 # 5️⃣ 逐字歌词源 💬
 
