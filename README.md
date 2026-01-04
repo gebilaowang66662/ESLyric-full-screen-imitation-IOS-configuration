@@ -281,7 +281,7 @@ Change visibility="1" to 0 (1 is on, 0 is off)
 ------------------------------------------------------------------------------------------
 # 4️⃣ Foobar2000 configuration integrated with the plugin 😎  
 
-## Instrumental Track Settings (No Lyrics) 
+## 1、Instrumental Track Settings (No Lyrics) 
 
 Lyric-free layout centers content and hides lyric components when:
 
@@ -309,7 +309,14 @@ System will stop searching lyrics when local tags contain "纯音乐"
 
 ![image](https://github.com/user-attachments/assets/c879d358-8098-48d5-81a1-6cf207041fe9)
 
+## 2、Background for the no-play standby state
 
+When playback is stopped, a default image will be shown, but the background will not follow dynamic blur. You need to set it up this way; the same applies to other pages.
+
+Paste this here.
+.\profile\eslyric-data\layout\Style1\images\default.png
+
+<img width="1827" height="638" alt="2S7% FJ$OTPDK4ZLA%DAT5M" src="https://github.com/user-attachments/assets/db3b8afe-116b-4123-87c3-a51eefcff25d" />
 
 ------------------------------------------------------------------------------------------
 # 5️⃣ Word-by-word Lyrics Sources 💬  
