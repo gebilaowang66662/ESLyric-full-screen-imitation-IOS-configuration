@@ -293,7 +293,7 @@ Lyric-free layout centers content and hides lyric components when:
 
 2.Disable lyric display:
 
-Add `*纯音乐*` rule in lyric processing when tags contain `*纯音乐*`
+Add `*纯音乐*`(Instrumental) rule in lyric processing when tags contain `*纯音乐*`(Instrumental)
 
 ![image](https://github.com/user-attachments/assets/a34173bb-c365-46bb-86b7-95f738b1cf8d)
 
@@ -303,7 +303,7 @@ Add filter rules for tags:
 
 `%UNSYNCED LYRICS%` `%LYRICS%`  
 
-With wildcard matching: `*纯音乐*`  
+With wildcard matching: `*纯音乐*`  (Instrumental)
 
 System will stop searching lyrics when local tags contain "纯音乐"
 
