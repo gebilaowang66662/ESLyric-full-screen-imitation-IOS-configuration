@@ -106,9 +106,9 @@ Disable `Quick Edit Mode` after setup:
 ------------------------------------------------------------------------------------------
 # 3️⃣ Configuration 😴  
 
-Demo effect🌌:  
+Open foobar, hold down **Shift** while clicking **File** in the top-left corner, then click **Browse configuration folder**.
 
-![image](https://github.com/user-attachments/assets/5c3285d1-8e36-4a76-831f-855ce95f45d2)
+<img width="1920" height="1080" alt="9M" src="https://github.com/user-attachments/assets/83f29b74-7fab-43db-9420-d965010123ec" />
 
 Place layout files at🤏:  
 
