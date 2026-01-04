@@ -121,10 +121,9 @@ ESLyric插件🔩和布局文件📁：
 
 # 3️⃣ 配置 😴
 
+打开foobar，按住Shift的同时点击左上角的 `文件` ,再点击下面的 `浏览配置文件目录`
 
-效果图🌌
-
-![image](https://github.com/user-attachments/assets/5c3285d1-8e36-4a76-831f-855ce95f45d2)
+<img width="1920" height="1080" alt="9M" src="https://github.com/user-attachments/assets/83f29b74-7fab-43db-9420-d965010123ec" />
 
 把布局文件layout拖到🤏
 
