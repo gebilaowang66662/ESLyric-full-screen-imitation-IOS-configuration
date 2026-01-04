@@ -111,10 +111,9 @@ Horizontal and Vertical No control.xml
 
 # 3️⃣ 配置 😴
 
+打開 foobar，按住 Shift 的同時點擊左上角的「檔案」，再點擊下面的「瀏覽設定檔目錄」
 
-效果圖🌌
-
-![image](https://github.com/user-attachments/assets/5c3285d1-8e36-4a76-831f-855ce95f45d2)
+<img width="1920" height="1080" alt="9M" src="https://github.com/user-attachments/assets/83f29b74-7fab-43db-9420-d965010123ec" />
 
 把布局文件layout拖到🤏
 
