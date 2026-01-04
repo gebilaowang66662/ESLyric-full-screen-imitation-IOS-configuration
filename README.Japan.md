@@ -321,6 +321,7 @@ PCやフォント設定により異なるため↕
 再生を停止するとデフォルトの画像が表示されますが、背景は動的ぼかしに追従しません。このように設定する必要があります。他のページも同様です。
 
 これをここに貼り付けてください。
+
 .\profile\eslyric-data\layout\Style1\images\default.png
 
 <img width="1827" height="638" alt="2S7% FJ$OTPDK4ZLA%DAT5M" src="https://github.com/user-attachments/assets/db3b8afe-116b-4123-87c3-a51eefcff25d" />
