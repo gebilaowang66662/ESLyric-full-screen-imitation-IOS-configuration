@@ -314,6 +314,7 @@ System will stop searching lyrics when local tags contain "纯音乐"
 When playback is stopped, a default image will be shown, but the background will not follow dynamic blur. You need to set it up this way; the same applies to other pages.
 
 Paste this here.
+
 .\profile\eslyric-data\layout\Style1\images\default.png
 
 <img width="1827" height="638" alt="2S7% FJ$OTPDK4ZLA%DAT5M" src="https://github.com/user-attachments/assets/db3b8afe-116b-4123-87c3-a51eefcff25d" />
