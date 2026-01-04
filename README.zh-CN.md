@@ -333,6 +333,7 @@ Horizontal 2.xml 布局新增频谱条
 当停止播放时，会显示默认图片，但是背景不跟随动态模糊，需要这样设置，其他页面同理
 
 把这个粘贴到这里
+
 .\profile\eslyric-data\layout\Style1\images\default.png
 
 <img width="1827" height="638" alt="2S7% FJ$OTPDK4ZLA%DAT5M" src="https://github.com/user-attachments/assets/db3b8afe-116b-4123-87c3-a51eefcff25d" />
