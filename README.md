@@ -279,7 +279,40 @@ Change visibility="1" to 0 (1 is on, 0 is off)
 ![O_ HN O@_NL8Y3_P NPG](https://github.com/user-attachments/assets/7f22d864-c1b7-4820-8086-5c3c1759425e)
 
 ------------------------------------------------------------------------------------------
-# 4️⃣ Word-by-word Lyrics Sources 💬  
+# 4️⃣ Foobar2000 configuration integrated with the plugin 😎  
+
+## Instrumental Track Settings (No Lyrics) 
+
+Lyric-free layout centers content and hides lyric components when:
+
+1.Either `%UNSYNCED LYRICS%` or `%LYRICS%` tag contains `纯音乐` (Instrumental)
+
+   (Other characters are also acceptable, used to mark instrumental music)
+
+![image](https://github.com/user-attachments/assets/eb1c14f0-e9ae-4c61-a83e-0e1195588236)
+
+2.Disable lyric display:
+
+Add `*纯音乐*` rule in lyric processing when tags contain `*纯音乐*`
+
+![image](https://github.com/user-attachments/assets/a34173bb-c365-46bb-86b7-95f738b1cf8d)
+
+3.Block lyric searches:  
+
+Add filter rules for tags:  
+
+`%UNSYNCED LYRICS%` `%LYRICS%`  
+
+With wildcard matching: `*纯音乐*`  
+
+System will stop searching lyrics when local tags contain "纯音乐"
+
+![image](https://github.com/user-attachments/assets/c879d358-8098-48d5-81a1-6cf207041fe9)
+
+
+
+------------------------------------------------------------------------------------------
+# 5️⃣ Word-by-word Lyrics Sources 💬  
 
 There is a lyric source here, but it has been a bit long, and I don't know if the lyric source is invalid.
 
@@ -324,7 +357,7 @@ Right-click lyrics interface 🖱:
 ![image](https://github.com/user-attachments/assets/3d25fa3d-2d56-4fd8-9073-32a408058b59)
 
 ------------------------------------------------------------------------------------------
-# 5️⃣ Lyrics Filtering Rules 🤩  
+# 6️⃣  Lyrics Filtering Rules 🤩  
 How to remove original singer info from lyrics? ❓🚮  
 
 As shown:  
@@ -342,7 +375,7 @@ Example: To remove patterns like `演唱：林俊杰` at song beginnings, enter:
 ![image](https://github.com/user-attachments/assets/7b8caf75-5654-44bf-a634-dce61aa19ba7)
 
 ------------------------------------------------------------------------------------------
-# 6️⃣ Embed Album Art 😇  
+# 7️⃣ Embed Album Art 😇  
 
 Embed album art for songs to prevent dark empty displays ◼  
 
@@ -355,7 +388,7 @@ Right-click interface🖱:
 ![C1G`~GZ)ZSH_LRUSJGR4064](https://github.com/user-attachments/assets/c4cc8e60-66ca-43f7-9bf1-dd44f6d1d1e9)
 
 ------------------------------------------------------------------------------------------
-# 7️⃣ Tag-based Lyrics Search 🤨  
+# 8️⃣ Tag-based Lyrics Search 🤨  
 This plugin searches lyrics using song `tag fields` 📝  
 
 (not by filenames). To correct mismatches:  
@@ -375,37 +408,6 @@ Keep original song title
 Manually add artists individually
   
 ![image](https://github.com/user-attachments/assets/dcf5efad-429b-4f58-ba5b-7bf576de7997)
-
-------------------------------------------------------------------------------------------
-# 8️⃣ Instrumental Track Settings (No Lyrics) 😎  
-
-Lyric-free layout centers content and hides lyric components when:
-
-1.Either `%UNSYNCED LYRICS%` or `%LYRICS%` tag contains `纯音乐` (Instrumental)
-
-   (Other characters are also acceptable, used to mark instrumental music)
-
-![image](https://github.com/user-attachments/assets/eb1c14f0-e9ae-4c61-a83e-0e1195588236)
-
-2.Disable lyric display:
-
-Add `*纯音乐*` rule in lyric processing when tags contain `*纯音乐*`
-
-![image](https://github.com/user-attachments/assets/a34173bb-c365-46bb-86b7-95f738b1cf8d)
-
-3.Block lyric searches:  
-
-Add filter rules for tags:  
-
-`%UNSYNCED LYRICS%` `%LYRICS%`  
-
-With wildcard matching: `*纯音乐*`  
-
-System will stop searching lyrics when local tags contain "纯音乐"
-
-![image](https://github.com/user-attachments/assets/c879d358-8098-48d5-81a1-6cf207041fe9)
-
-
 
 ------------------------------------------------------------------------------------------
 
