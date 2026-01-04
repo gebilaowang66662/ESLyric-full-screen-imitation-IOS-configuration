@@ -111,10 +111,9 @@ Horizontal and Vertical No control.xml
 
 # 3️⃣ 設定 😴
 
+foobar を開き、Shift キーを押しながら左上の「ファイル」をクリックし、下にある「設定ファイルのフォルダーを参照」をクリックします。
 
-完成イメージ🌌
-
-![image](https://github.com/user-attachments/assets/5c3285d1-8e36-4a76-831f-855ce95f45d2)
+<img width="1920" height="1080" alt="9M" src="https://github.com/user-attachments/assets/83f29b74-7fab-43db-9420-d965010123ec" />
 
 レイアウトファイルlayoutを以下の場所にドラッグ🤏
 
