@@ -84,7 +84,7 @@ Mini視窗
 
 無組件橫屏直屏（搭配已有底欄使用）
 
-Horizontal and Vertical No control.xml 
+**`Horizontal and Vertical No control.xml `**
 
 ![QX}$YIGN(P%}YMYD V59L6J](https://github.com/user-attachments/assets/f4126f8b-a1cd-4bc5-b827-cde0dbec3109)
 
