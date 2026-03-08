@@ -322,6 +322,41 @@ Horizontal 2.xml 佈局新增頻譜條
 
 <img width="1827" height="638" alt="2S7% FJ$OTPDK4ZLA%DAT5M" src="https://github.com/user-attachments/assets/db3b8afe-116b-4123-87c3-a51eefcff25d" />
 
+## 3. 【實驗性功能】歌詞關閉按鈕（僅限橫向佈局）
+
+在橫向佈局中新增了歌詞關閉按鈕。
+
+要啟用此功能，需要在 歌詞處理規則（Lyric Processing Rules） 中新增一條規則：選擇 Wildcard Remove（通配符移除），並加入 *，否則此功能將無法生效。
+
+此功能 預設為關閉 visibility="0"，目前仍然 尚未完全成熟。
+
+若要使用，需要在對應的 .xml 佈局檔中手動將其改為 visibility="1" 以啟用。
+
+已知問題 / Known Limitations
+
+此功能是透過規則開關過濾所有歌詞來實現的，因此會導致 %esl_has_playing_lyric% 欄位無法偵測到歌詞（因為所有字元都被過濾掉）。
+而歌詞開關按鈕正是依賴此欄位來判斷是否顯示。
+
+當規則啟用的狀態下切換歌曲時，可能會導致按鈕消失。
+此時需要在歌詞面板 右鍵 → 歌詞規則選單 中關閉 * 這條規則，按鈕才會重新顯示。
+
+目前用於判斷按鈕顯示狀態的條件：
+
+```xml
+visibility="$ifequal(%esl_has_playing_lyric%,1,1,0)"
+```
+
+另一種做法是讓按鈕始終顯示：
+
+```xml
+visibility="1"
+```
+
+但在某些情況下，這種方式可能無法正確反映功能的開關狀態。
+
+<img width="100" height="100" alt="lyric" src="https://github.com/user-attachments/assets/260e4bcc-3078-425d-91ca-383b112178ed" />
+<img width="1920" height="1030" alt="S))97E6PJW}3 OV%OA_EKMT" src="https://github.com/user-attachments/assets/263b5bf8-e54a-4e13-8dd1-eb33c6b7e8e2" />
+
 ------------------------------------------------------------------------------------------
 
 # 5️⃣ 逐字歌詞源 💬
