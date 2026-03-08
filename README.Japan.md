@@ -326,6 +326,42 @@ PCやフォント設定により異なるため↕
 
 <img width="1827" height="638" alt="2S7% FJ$OTPDK4ZLA%DAT5M" src="https://github.com/user-attachments/assets/db3b8afe-116b-4123-87c3-a51eefcff25d" />
 
+## 3. 【実験的機能】歌詞閉じるボタン（横レイアウトのみ）
+
+横レイアウトに歌詞を閉じるボタンを追加しました。
+
+この機能を有効にするには、Lyric Processing Rules にルールを追加する必要があります。
+Wildcard Remove を選択し、* を追加してください。そうしないとこの機能は動作しません。
+
+この機能は デフォルトで無効 visibility="0" になっており、現在も まだ実験段階 です。
+
+使用する場合は、対応する .xml レイアウトファイルで visibility="1" に手動変更して有効化してください。
+
+既知の問題 / Known Limitations
+
+この機能はルールスイッチによってすべての歌詞をフィルタリングすることで実現されています。
+そのため、すべての文字が削除されるため %esl_has_playing_lyric% フィールドが歌詞を検出できなくなります。
+歌詞の表示切替ボタンはこのフィールドを基準に表示を判断しているためです。
+
+ルールが有効な状態で曲を切り替えると、ボタンが表示されなくなる場合があります。
+その場合は、歌詞パネルを 右クリック → Lyrics Rules メニュー を開き、* のルールを無効にするとボタンが再表示されます。
+
+現在ボタン表示を制御している条件：
+
+```xml
+visibility="$ifequal(%esl_has_playing_lyric%,1,1,0)"
+```
+
+常にボタンを表示する方法：
+
+```xml
+visibility="1"
+```
+
+ただし、この方法では機能のオン / オフ状態を正しく反映できない場合があります。
+<img width="100" height="100" alt="lyric" src="https://github.com/user-attachments/assets/260e4bcc-3078-425d-91ca-383b112178ed" />
+<img width="1920" height="1030" alt="S))97E6PJW}3 OV%OA_EKMT" src="https://github.com/user-attachments/assets/263b5bf8-e54a-4e13-8dd1-eb33c6b7e8e2" />
+
 ------------------------------------------------------------------------------------------
 # 5️⃣ 歌詞単語単位ソース 💬
 ここに歌詞ソースがありますが、少し長くなってしまいましたし、歌詞ソースが無効かどうかはわかりません
