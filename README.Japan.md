@@ -359,6 +359,7 @@ visibility="1"
 ```
 
 ただし、この方法では機能のオン / オフ状態を正しく反映できない場合があります。
+
 <img width="100" height="100" alt="lyric" src="https://github.com/user-attachments/assets/260e4bcc-3078-425d-91ca-383b112178ed" />
 <img width="1920" height="1030" alt="S))97E6PJW}3 OV%OA_EKMT" src="https://github.com/user-attachments/assets/263b5bf8-e54a-4e13-8dd1-eb33c6b7e8e2" />
 
