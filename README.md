@@ -319,6 +319,35 @@ Paste this here.
 
 <img width="1827" height="638" alt="2S7% FJ$OTPDK4ZLA%DAT5M" src="https://github.com/user-attachments/assets/db3b8afe-116b-4123-87c3-a51eefcff25d" />
 
+## 3. [Experimental Feature] Lyrics Close Button (Horizontal Layouts Only)
+
+A lyrics close button has been added to the horizontal layouts.
+
+To enable this feature, you need to add a rule in Lyric Processing Rules: choose Wildcard Remove and add *. Otherwise, this feature will not work.
+
+This feature is disabled by default visibility="0" and is still not fully mature.
+
+To use it, you must manually enable it in the corresponding .xml layout file by setting visibility="1".
+
+Known Limitations
+
+This feature works by filtering all lyrics through a rule toggle. As a result, the field %esl_has_playing_lyric% cannot detect lyrics because all characters are filtered out. The lyrics toggle button relies on this field to determine whether it should be displayed.
+
+When switching tracks while the rule is enabled, the button may disappear. In that case, right-click the lyrics panel and disable the * rule in the Lyrics Rules menu to make the button appear again.
+
+The current condition used to control the button visibility is:
+
+```xml
+visibility="$ifequal(%esl_has_playing_lyric%,1,1,0)"
+```
+Another approach is to always show the button:
+
+```xml
+visibility="1"
+```
+However, this method may not correctly reflect the actual on/off state of the feature in some situations.
+
+
 ------------------------------------------------------------------------------------------
 # 5️⃣ Word-by-word Lyrics Sources 💬  
 
