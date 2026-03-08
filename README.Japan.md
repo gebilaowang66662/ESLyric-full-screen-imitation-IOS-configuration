@@ -9,54 +9,78 @@
 
 Miniウィンドウ
 
-Mini.xml
+  **`Mini.xml`**  
+<img width="400" height="300" alt="59{_NUTH}QT~@A3MXEOXK$G" src="https://github.com/user-attachments/assets/558b2968-dfb5-4cf6-bdec-d8be086d5e68" />
+<img width="400" height="300" alt="VQYR24W(_`AWK9W(S3L%9{T" src="https://github.com/user-attachments/assets/b5e3332f-a8d0-4e24-b759-cb880314f8d8" />
 
-<img width="442" height="252" alt="$X 23(V1)T2}R)2%9 P~6HQ" src="https://github.com/user-attachments/assets/730ec11e-b61c-4bea-82bd-e2fd7ec58c4b" />
-<img width="442" height="353" alt="61LU~@0)AW`BA9AM~1LYC 7" src="https://github.com/user-attachments/assets/75b209a5-433c-4f81-b20f-16a4e4c4fe9b" />
-<img width="442" height="352" alt="6IZAM)CGH}DG1L2ST8I%U)4" src="https://github.com/user-attachments/assets/e83547f8-cb94-47c9-b65e-0fb300bb93cc" />
-<img width="442" height="430" alt="@FWN ZR)MEXZ8GVG@K1H0M" src="https://github.com/user-attachments/assets/d8090c2d-2b17-4841-ad01-1a1ac5b54edc" />
+  **`Mini 2.xml`**  
+<img width="250" height="300" alt="$2~B(@6F{SJ{UMI8H{34ST" src="https://github.com/user-attachments/assets/e9f12815-79e5-4c8f-a8e4-997a3cb6b71c" />
+<img width="462" height="338" alt="R QS0_V$(3_EL )7X%@TM_V" src="https://github.com/user-attachments/assets/2c69f20b-8477-482f-910c-f291ec7071d5" />
+
+  **`Mini 3.xml`, `Mini 3.1.xml`, `Mini 3.2.xml`**  
+<img width="381.5" height="154" alt="HGSDP@$OEZ4I~BU6PHR`19C" src="https://github.com/user-attachments/assets/e18fe070-78fb-46b6-80db-2c2d277f3e23" />
+<img width="381.5" height="154" alt="B72F~ZSUM2G4MN}S$1B5 4O" src="https://github.com/user-attachments/assets/6c5fa9ed-f407-44ef-89c3-c19f647831d2" />
+<img width="381.5" height="154" alt="0MLD{{@G`NEM959GO408PGG" src="https://github.com/user-attachments/assets/8f3386c5-226f-4021-928a-9182a3abd55b" />
+
+  **`Mini 4.xml`**  
+<img width="250" height="300" alt="34W~F}Z(DT06GH$JW7I`6SL" src="https://github.com/user-attachments/assets/e396fce1-0033-438c-98a4-da2e75ac248a" />
+
+  **`Mini 5.xml`**  
+<img width="200" height="200" alt="VR$QMT4BQVS(3O$RU$GU9T8" src="https://github.com/user-attachments/assets/6da3771e-611b-439f-808a-abaec9109321" />
+
+  **`Mini 6.xml`**   
+<img width="200" height="250" alt="VR$QMT4BQVS(3O$RU$GU9T8" src="https://github.com/user-attachments/assets/bc3603ee-7e86-4932-9147-44e011e2c83e" 
 
 
 下部バー
 
-Bottom bar.xml
+**`Bottom bar.xml`**
 
-![1`${73~KE0HOCIOGM(8JJZ5](https://github.com/user-attachments/assets/bac7df9f-62dc-4837-9379-89449125a565)
+<img width="2560" height="162" alt="4T UD1R@JG0G_``KI{$%`HP" src="https://github.com/user-attachments/assets/7835b712-ed96-4b45-a5af-2f369c82692b" />
 
 
 縦画面
 
-Vertical .xml
+**`Vertical .xml`**
 
-![RXGVRX$N04SF8 HGJF BEN9](https://github.com/user-attachments/assets/d28d0016-8cc0-4f19-8663-8844e9f9d129)
-
+<img width="200" height="500" alt="7 }VPHNZ(99 95N0WTU DGY" src="https://github.com/user-attachments/assets/3791b0e8-729e-4729-920c-2d4add3f0f95" />
+<img width="200" height="500" alt="GVV824MO)%}K8_8 )T}NCRH" src="https://github.com/user-attachments/assets/c240fa77-eef8-4a0e-b0f0-6471a84e4df5" />
 
 横画面
 
-Horizontal.xml
+**`Horizontal.xml`**
 
-![2~U(PO)NSB462P2`U9O97RL](https://github.com/user-attachments/assets/780bcbab-5d38-4e3a-aeb7-263311df32af)
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/596107d2-4869-4fd7-8316-2e0e54c5b95a" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/5886626f-0e3e-4142-a008-94a8de2c4e05" />
 
-![77@JA$B}ZPE_65U7%Z{X4SO](https://github.com/user-attachments/assets/4de81bcf-3f7b-4598-8eef-34b0015e9232)
 
-Horizontal 2.xml
+**`Horizontal 2.xml`**
 
-![image](https://github.com/user-attachments/assets/37db2290-1de4-4f5c-a521-dfb0f2aa68af)
+<img width="600" height="400" alt="~B617BR1F6ORQUX$X}FICVD" src="https://github.com/user-attachments/assets/e99ebc9a-a46d-4cb2-94c3-4806538a8266" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/d5d6fa61-9ba8-4523-bed0-5fee48f09cdd" />
 
-![image](https://github.com/user-attachments/assets/664fd3d0-ccb4-4f6c-8017-9215d4161cd6)
+**`Horizontal 3.xml`**
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/4c617948-fe38-4fa6-a95b-0a4e65ee454d" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/bf9bbb93-b4d9-46bd-8b62-3511314527c8" />
 
 コンポーネントなし Horizontal 2（既存の下部バーと組み合わせて使用）
 
-Horizontal 2 No control.xml 
+**`Horizontal 2 No control.xml `**
 
-<img width="2560" height="1390" alt="CG809)5( 2}5)BOT15K6@7" src="https://github.com/user-attachments/assets/ec044e98-2d07-4974-a12d-615a9a8087e7" />
+<img width="600" height="400" alt="8EV0U`Z}4VS$~~TC 1742O4" src="https://github.com/user-attachments/assets/c4739768-0247-4894-b9c2-6d4c7de2b7ea" />
+<img width="600" height="400" alt="$%M_G 13QVJF`44AN766FGU" src="https://github.com/user-attachments/assets/dd55a2cd-d456-4627-b8be-a3fe97de6f3f" />
 
-<img width="2560" height="1390" alt="$U(EE$ZGBQG}9{NBIDVRES9" src="https://github.com/user-attachments/assets/e30b7195-9d93-496d-9611-475e6bbbcb0b" />
+派生レイアウトと反転レイアウト
+**`XXXX.1.xml`** **`XXXX.2.xml `** **`XXXX Rev.xml `**
 
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/65090c58-45eb-4f05-9846-c237eba1c381" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/60f101a8-477e-494c-a5c3-9abe4366915a" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/a4c342b8-be31-4d74-ae9f-5210517c60a3" />
 
 コンポーネントなし横画面縦画面（既存の下部バーと組み合わせて使用）
 
-Horizontal and Vertical No control.xml
+**`Horizontal and Vertical No control.xml`**
 
 ![QX}$YIGN(P%}YMYD V59L6J](https://github.com/user-attachments/assets/f4126f8b-a1cd-4bc5-b827-cde0dbec3109)
 
