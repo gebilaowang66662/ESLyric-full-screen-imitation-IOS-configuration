@@ -66,6 +66,7 @@ Mini窗口
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/4c617948-fe38-4fa6-a95b-0a4e65ee454d" />
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/bf9bbb93-b4d9-46bd-8b62-3511314527c8" />
 
+
 无组件 Horizontal 2（搭配已有底栏使用）
 
 **`Horizontal 2 No control.xml `**
@@ -73,6 +74,12 @@ Mini窗口
 <img width="600" height="400" alt="8EV0U`Z}4VS$~~TC 1742O4" src="https://github.com/user-attachments/assets/c4739768-0247-4894-b9c2-6d4c7de2b7ea" />
 <img width="600" height="400" alt="$%M_G 13QVJF`44AN766FGU" src="https://github.com/user-attachments/assets/dd55a2cd-d456-4627-b8be-a3fe97de6f3f" />
 
+衍生布局和反转布局
+**`XXXX.1.xml`** **`XXXX.2.xml `** **`XXXX Rev.xml `**
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/65090c58-45eb-4f05-9846-c237eba1c381" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/60f101a8-477e-494c-a5c3-9abe4366915a" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/a4c342b8-be31-4d74-ae9f-5210517c60a3" />
 
 
 无组件横屏竖屏（搭配已有底栏使用）
