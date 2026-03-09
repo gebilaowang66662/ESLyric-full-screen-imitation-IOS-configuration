@@ -288,7 +288,7 @@ When the mouse pointer hovers over the progress bar, a lyric will be displayed a
 
 ![3IR~IZ)@Y~I~82TIJ1O BYE](https://github.com/user-attachments/assets/00f4abdd-ae2e-4b8e-937d-f2ad1da1b716)
 
-When lyric levitation is enabled and the song has lyrics, it will play from the beginning of the hovering sentence when clicked, and cannot be freely dragged to a certain point in time
+When lyric levitation is enabled and the song has lyrics, it will play from the beginning of the hovering sentence when clicked
 
 If you don't like it, you can go to the ' .xml ' file with a progress bar to close
 
