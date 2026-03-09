@@ -226,7 +226,6 @@ ESLyric插件🔩和布局文件📁：
 ![image](https://github.com/user-attachments/assets/4afaab25-7a59-4d0c-85db-88acb186373f)
 
 
-
 如果你们出现了左侧标题等行高字体显示一半，显示不全🚫
 
 ![image](https://github.com/user-attachments/assets/9fc7e46c-a947-402d-8a05-49bf4515944e)
@@ -310,7 +309,7 @@ https://github.com/ttsping/foo_flowin
 
 ![3IR~IZ)@Y~I~82TIJ1O BYE](https://github.com/user-attachments/assets/00f4abdd-ae2e-4b8e-937d-f2ad1da1b716)
 
-当启用歌词悬浮，并歌曲拥有歌词，点击时会从悬浮的句子开头播放，并不能自由拖动到某一时间点
+当启用歌词悬浮，并歌曲拥有歌词，点击时会从悬浮的句子开头播放
 
 如果不喜欢可以去有进度条的 ` .xml` 文件关闭
 
