@@ -300,7 +300,7 @@ https://github.com/ttsping/foo_flowin
 
 ![3IR~IZ)@Y~I~82TIJ1O BYE](https://github.com/user-attachments/assets/00f4abdd-ae2e-4b8e-937d-f2ad1da1b716)
 
-當啟用歌詞懸浮，並歌曲擁有歌詞，點擊時會從懸浮的句子開頭播放，並不能自由拖動到某一時間點
+當啟用歌詞懸浮，並歌曲擁有歌詞，點擊時會從懸浮的句子開頭播放
 
 如果不喜歡可以去有進度條的 ` .xml` 文件關閉
 
