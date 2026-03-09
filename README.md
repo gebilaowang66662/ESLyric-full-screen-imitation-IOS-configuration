@@ -182,7 +182,9 @@ Right-click the interface 🖱
 
 ![image](https://github.com/user-attachments/assets/687fac90-d661-483e-b50e-95cb4720c170)
 
-![image](https://github.com/user-attachments/assets/09693ac2-c83e-499f-a49f-729c3d9e5cd9)
+.\profile\eslyric-data\layout\Style1\images\default.png
+
+<img width="826" height="650" alt="image" src="https://github.com/user-attachments/assets/58f3d671-809f-4089-8489-93cb4d38a92a" />
 
 Highlight lyric adjustment🔧:  
 
@@ -193,41 +195,6 @@ Highlight lyric adjustment🔧:
 Dynamic blur effect🔮:  
 
 ![image](https://github.com/user-attachments/assets/c72f7dcc-eb40-49d4-b8e6-3e26e4f8cfb5)
-
-
-
-Mini window settings:  
-
-Need to download it here
-
-https://github.com/ttsping/foo_flowin
-
-![XE`~SCE(02JLVK B5BE0}{I](https://github.com/user-attachments/assets/afa464af-6dcb-4ea6-b5c1-5b19018a6722)
-
-There is a Mini toggle in the bottom bar interface
-
-First, create a new floating window here
-
-![5JCVIQYSBN2($2A5JZD~A_X](https://github.com/user-attachments/assets/10b0ee3c-7c2e-4f77-94c4-ac4e8cb2ca0d)
-
-![)B9HZFOX2%3LLPNXA{S 1J](https://github.com/user-attachments/assets/b2c5d68d-c194-4975-b0b3-125596219660)
-
-When the floating window is in borderless mode, use the mouse middle button to drag the window
-
-![image](https://github.com/user-attachments/assets/a7a3af3c-4e36-497f-908e-0ba5262e8d35)
-
-When the name of the floating window is modified, the corresponding 'locales.xml' should also modify the button path, otherwise the button will not take effect if it has no effect
-
-![M$1UXH$}VE5M62Z{N_~HXTN](https://github.com/user-attachments/assets/0501568a-9a69-41d5-9754-cdf33e37f35f)
-
-The shortcut path of the window button
-
-![5(9{@C(NYM5LMPYJD_%8FWP](https://github.com/user-attachments/assets/3a6547ca-d9db-41ba-8545-aa58a4f5039c)
-
-Here's a horizontal scroll to try
-
-![FWK(7(6I@_H8BBINK$~WA_0](https://github.com/user-attachments/assets/a0f8e53a-add3-45a8-91c6-354c321f2174)
-
 
 
 Double-click the ESLyric interface to toggle/exit full screen. If you prefer not to double-click, you can set a hotkey for Full Screen Mode 🔳 or add play ▶ pause ⏸ hotkeys
@@ -267,6 +234,48 @@ Adjust the parameters shown below🔢
 ------------------------------------------------------------------------------------------
 ## Appendix
 
+Since **ESLyric 1.0.6.1** introduced a **built-in floating window**, the layout toggle button in this update will now point to the plugin’s built-in floating window.
+
+If you still want to use the previous external floating window, open a layout that contains the floating window toggle and replace:
+
+* **`Floating Lyric`** with **`Closeflowin`** (floating window layout)
+* **`Floating Lyric`** with **`Showflowin`** (foobar bottom bar and vertical layouts)
+
+![修改示例1](https://github.com/user-attachments/assets/d8e4e5d3-958e-4d1c-8fe4-7ae7b6ef0133)
+![修改示例2](https://github.com/user-attachments/assets/78441639-93ab-4bbd-be67-f997d22a2459)
+
+Mini window settings（External plugin）:  
+
+Need to download it here
+
+https://github.com/ttsping/foo_flowin
+
+![XE`~SCE(02JLVK B5BE0}{I](https://github.com/user-attachments/assets/afa464af-6dcb-4ea6-b5c1-5b19018a6722)
+
+There is a Mini toggle in the bottom bar interface
+
+First, create a new floating window here
+
+![5JCVIQYSBN2($2A5JZD~A_X](https://github.com/user-attachments/assets/10b0ee3c-7c2e-4f77-94c4-ac4e8cb2ca0d)
+
+![)B9HZFOX2%3LLPNXA{S 1J](https://github.com/user-attachments/assets/b2c5d68d-c194-4975-b0b3-125596219660)
+
+When the floating window is in borderless mode, use the mouse middle button to drag the window
+
+![image](https://github.com/user-attachments/assets/a7a3af3c-4e36-497f-908e-0ba5262e8d35)
+
+When the name of the floating window is modified, the corresponding 'locales.xml' should also modify the button path, otherwise the button will not take effect if it has no effect
+
+![M$1UXH$}VE5M62Z{N_~HXTN](https://github.com/user-attachments/assets/0501568a-9a69-41d5-9754-cdf33e37f35f)
+
+The shortcut path of the window button
+
+![5(9{@C(NYM5LMPYJD_%8FWP](https://github.com/user-attachments/assets/3a6547ca-d9db-41ba-8545-aa58a4f5039c)
+
+Here's a horizontal scroll to try
+
+![FWK(7(6I@_H8BBINK$~WA_0](https://github.com/user-attachments/assets/a0f8e53a-add3-45a8-91c6-354c321f2174)
+
 Custom buttons
 
 🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
@@ -304,6 +313,24 @@ If you don't like it, you can go to Horizontal 2.xml close
 Change visibility="1" to 0 (1 is on, 0 is off)
 
 ![O_ HN O@_NL8Y3_P NPG](https://github.com/user-attachments/assets/7f22d864-c1b7-4820-8086-5c3c1759425e)
+
+Three Spectrum Visualization Modes (ESLyric 1.0.6.5+)
+
+ **`Classic`**
+
+  <img width="879" height="80" alt="_QPJBPH2{Q6T SY8DLSM{NK" src="https://github.com/user-attachments/assets/43321b60-163c-41af-9be1-015758112fcb" />
+
+ **`Simple-bar`**
+
+  <img width="745" height="60" alt="3D}5TPNKKRLDA}VZ 6%C73C" src="https://github.com/user-attachments/assets/163ad58c-7a6c-49e2-9332-75f7377a6278" />
+
+ **`Wave`**
+
+  <img width="861" height="65" alt="F{T 4 (B~H@$QK~E{Q{_0J1" src="https://github.com/user-attachments/assets/7c57362c-18b2-423f-99a3-abf861e58d75" />
+
+The spectrum style and behavior can be customized by modifying the parameters in the **settings panel**.
+
+<img width="1213" height="848" alt="%UK6J0YVXEHN$(2037YEH" src="https://github.com/user-attachments/assets/7abcdc93-7069-4b69-a2d2-49003a9cca8d" />
 
 ------------------------------------------------------------------------------------------
 # 4️⃣ Foobar2000 configuration integrated with the plugin 😎  
