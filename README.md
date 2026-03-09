@@ -62,7 +62,7 @@ Horizontal Screen
 **`Horizontal 3.xml`**
 
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/4c617948-fe38-4fa6-a95b-0a4e65ee454d" />
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/bf9bbb93-b4d9-46bd-8b62-3511314527c8" 
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/bf9bbb93-b4d9-46bd-8b62-3511314527c8" />
 
 Componentless Horizontal 2 (with existing bottom bars)
 
