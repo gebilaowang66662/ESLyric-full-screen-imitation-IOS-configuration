@@ -199,7 +199,10 @@ ESLyric插件🔩和布局文件📁：
 
 ![image](https://github.com/user-attachments/assets/687fac90-d661-483e-b50e-95cb4720c170)
 
-![image](https://github.com/user-attachments/assets/09693ac2-c83e-499f-a49f-729c3d9e5cd9)
+.\profile\eslyric-data\layout\Style1\images\default.png
+
+<img width="826" height="650" alt="image" src="https://github.com/user-attachments/assets/58f3d671-809f-4089-8489-93cb4d38a92a" />
+
 
 `高亮歌词`太偏了，可以这里调🔧
 
@@ -210,41 +213,6 @@ ESLyric插件🔩和布局文件📁：
 可以试试`动态模糊`🔮
 
 ![image](https://github.com/user-attachments/assets/c72f7dcc-eb40-49d4-b8e6-3e26e4f8cfb5)
-
-
-
-Mini窗口设置
-
-需要到这里下载
-
-https://github.com/ttsping/foo_flowin
-
-![XE`~SCE(02JLVK B5BE0}{I](https://github.com/user-attachments/assets/afa464af-6dcb-4ea6-b5c1-5b19018a6722)
-
-底栏界面有Mini开关
-
-开始要在这里新建一个悬浮窗口
-
-![5JCVIQYSBN2($2A5JZD~A_X](https://github.com/user-attachments/assets/10b0ee3c-7c2e-4f77-94c4-ac4e8cb2ca0d)
-
-![)B9HZFOX2%3LLPNXA{S 1J](https://github.com/user-attachments/assets/b2c5d68d-c194-4975-b0b3-125596219660)
-
-当悬浮窗为无边框模式时，用鼠标中键拖动窗口
-
-![image](https://github.com/user-attachments/assets/a7a3af3c-4e36-497f-908e-0ba5262e8d35)
-
-当修改了悬浮窗名字后，相应'locales.xml'也要修改按钮路径，不然按钮没有作用不生效
-
-![M$1UXH$}VE5M62Z{N_~HXTN](https://github.com/user-attachments/assets/0501568a-9a69-41d5-9754-cdf33e37f35f)
-
-窗口按钮的快捷键路径
-
-![5(9{@C(NYM5LMPYJD_%8FWP](https://github.com/user-attachments/assets/3a6547ca-d9db-41ba-8545-aa58a4f5039c)
-
-这里有个水平滚动可以试试
-
-![FWK(7(6I@_H8BBINK$~WA_0](https://github.com/user-attachments/assets/a0f8e53a-add3-45a8-91c6-354c321f2174)
-
 
 
 双击ESLyric界面可以切换/退出全屏，如果你懒得双击也可以给全屏模式🔳设置`快捷键`，也可以添加播放▶暂停⏸快捷键
@@ -289,6 +257,47 @@ https://github.com/ttsping/foo_flowin
 
 ## 附
 
+由于ESLyric 1.0.6.1版本新增内置悬浮窗，本次更新布局开关按钮将引导至插件内置悬浮窗。  
+
+如果还想使用之前的外置悬浮窗，请打开有悬浮窗开关的布局，将其中的：
+- **`Floating Lyric`** 换成 **`Closeflowin`** (悬浮窗布局)  
+- **`Floating Lyric`** 换成 **`Showflowin`** (foobar底栏和竖屏布局)  
+
+![修改示例1](https://github.com/user-attachments/assets/d8e4e5d3-958e-4d1c-8fe4-7ae7b6ef0133)
+![修改示例2](https://github.com/user-attachments/assets/78441639-93ab-4bbd-be67-f997d22a2459)
+
+Mini窗口设置（外置插件）
+
+需要到这里下载
+
+https://github.com/ttsping/foo_flowin
+
+![XE`~SCE(02JLVK B5BE0}{I](https://github.com/user-attachments/assets/afa464af-6dcb-4ea6-b5c1-5b19018a6722)
+
+底栏界面有Mini开关
+
+开始要在这里新建一个悬浮窗口
+
+![5JCVIQYSBN2($2A5JZD~A_X](https://github.com/user-attachments/assets/10b0ee3c-7c2e-4f77-94c4-ac4e8cb2ca0d)
+
+![)B9HZFOX2%3LLPNXA{S 1J](https://github.com/user-attachments/assets/b2c5d68d-c194-4975-b0b3-125596219660)
+
+当悬浮窗为无边框模式时，用鼠标中键拖动窗口
+
+![image](https://github.com/user-attachments/assets/a7a3af3c-4e36-497f-908e-0ba5262e8d35)
+
+当修改了悬浮窗名字后，相应'locales.xml'也要修改按钮路径，不然按钮没有作用不生效
+
+![M$1UXH$}VE5M62Z{N_~HXTN](https://github.com/user-attachments/assets/0501568a-9a69-41d5-9754-cdf33e37f35f)
+
+窗口按钮的快捷键路径
+
+![5(9{@C(NYM5LMPYJD_%8FWP](https://github.com/user-attachments/assets/3a6547ca-d9db-41ba-8545-aa58a4f5039c)
+
+这里有个水平滚动可以试试
+
+![FWK(7(6I@_H8BBINK$~WA_0](https://github.com/user-attachments/assets/a0f8e53a-add3-45a8-91c6-354c321f2174)
+
 自定义按钮
 
 🔗[https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80](https://github.com/ESLyric/release/wiki/%E9%9D%A2%E6%9D%BF%E5%B8%83%E5%B1%80)
@@ -327,6 +336,20 @@ Horizontal 2.xml 布局新增频谱条
 
 ![O_ HN O@_NL8Y3_P NPG](https://github.com/user-attachments/assets/7f22d864-c1b7-4820-8086-5c3c1759425e)
 
+  插件的三种频谱显示形态（ESLyric 1.0.6.5+）：
+
+ * **Classic**
+<img width="879" height="80" alt="_QPJBPH2{Q6T SY8DLSM{NK" src="https://github.com/user-attachments/assets/43321b60-163c-41af-9be1-015758112fcb" />
+
+*  **Simple-bar**
+<img width="745" height="60" alt="3D}5TPNKKRLDA}VZ 6%C73C" src="https://github.com/user-attachments/assets/163ad58c-7a6c-49e2-9332-75f7377a6278" />
+
+  * **Wave**
+<img width="861" height="65" alt="F{T 4 (B~H@$QK~E{Q{_0J1" src="https://github.com/user-attachments/assets/7c57362c-18b2-423f-99a3-abf861e58d75" />
+
+  可通过修改设置面板中的参数来自定义频谱样式及其对应表现：
+
+<img width="1213" height="848" alt="%UK6J0YVXEHN$(2037YEH" src="https://github.com/user-attachments/assets/7abcdc93-7069-4b69-a2d2-49003a9cca8d" />
 
 ------------------------------------------------------------------------------------------
 # 4️⃣ 与插件联动的foobar配置 😎
