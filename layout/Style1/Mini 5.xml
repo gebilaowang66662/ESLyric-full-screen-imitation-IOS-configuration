@@ -1,0 +1,187 @@
+<layout xmlns="https://github.com/ESLyric/layout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://github.com/ESLyric/layout ./../Layout.xsd">
+
+<!-- ======= Foobar2000 ESLyric Layout File ======== -->
+<!-- 名称 / Name        : 仿 Apple Music 配置  / imitation-IOS-configuration                                  -->
+<!-- 版本 / Version     : v1.6                                                                                -->
+<!-- 作者 / Author      : gebilaowang66662                                                                    -->
+<!-- 教程链接 / Guide   : https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration -->
+<!-- 最后更新 / Updated : 2026-02-27                                                                          -->
+<!-- =========================================== -->
+
+  <!-- 主面板布局 -->
+  <panel name="Mini 5" features="1" layout="free">
+
+                <!-- 悬浮提示 -->
+                <tooltip background-color= "rgba(255,255,255,0.1)"
+                        text-color="rgb(0,0,0)"
+                        font-size="10"/>
+
+
+                <!-- 白色背景 -->
+                <image  width="83%"
+                        height="100%"
+                        anchor="right"
+                        background="images/background_color_white.png"
+                        background-slice="20,20,20,20"/>
+
+
+                <!-- 专辑封面 -->
+              <albumart width="55%"
+                        anchor="left"
+                        margin-left="10%"
+                        margin-bottom="13%"
+                        aspect-ratio="1.0"
+                        radius="10"
+                        rotate-speed="1"
+                        stub="images/default.png"
+                        use-stub="false"
+                        follow-background="1"
+                        shadow="1"
+                        shadow-color="rgba(0,0,0,0.8)"
+                        shadow-intensity="10"
+                        mask="images/Cover Shadow 2.png"
+                        rotate="0"/>
+
+
+                <!-- 专辑封面 -->
+              <albumart width="55%"
+                        anchor="left"
+                        margin-left="10%"
+                        margin-bottom="18%"
+                        aspect-ratio="1.0"
+                        radius="10"
+                        rotate-speed="1"
+                        stub="images/default.png"
+                        use-stub="false"
+                        follow-background="1"
+                        shadow="1"
+                        shadow-color="rgba(0,0,0,0.8)"
+                        shadow-intensity="10"/>
+                                        
+                        
+
+                <!-- 控制按钮容器 -->
+                <container name="Ctrl" width="83%" height="100%" anchor="right,bottom" >
+
+
+                        <container name="Ctrl"  width="35%" height="58%" anchor="right">
+
+                                <!-- 关闭悬浮窗 -->
+                                <button background="images/dark2_Closeflowin.png"
+                                        command="mm://${Floating Lyric}"
+                                        width="30%"
+                                        aspect-ratio="1.0"/>
+
+                                <!-- 播放按钮 通用数值 -->
+                                <props  id="play" 
+                                        aspect-ratio="1.0"
+                                        margin-top="1%"/>
+
+                                <!-- 上一曲按钮 -->
+                                <button props="play"
+                                        background="images/dark_previous.png"
+                                        command="esl://Previous"
+                                        width="50%"/>
+
+                                <!-- 下一曲按钮 -->
+                                <button props="play"
+                                        background="images/dark_next.png"
+                                        command="esl://Next"
+                                        width="50%"/>
+
+                                <!-- 播放/暂停按钮 -->
+                                <button props="play"
+                                        background="$if($or($not(%isplaying%), %ispaused%),images/dark_play.png,images/dark_pause.png)"
+                                        command="esl://PlayOrPause"
+                                        width="60%"/>
+
+                        </container>
+
+                        <!--  歌曲标题标签 
+                                        font-size 字号推荐大小
+                                        2K:  || 1080P:  || 720P:  -->
+                                 <label name="title"
+                                        caption="%title%"
+                                        text-align="left"
+                                        text-color="rgb(0,0,0)"
+                                        font-size="18"
+                                        width="90%"
+                                        height="auto"
+                                        loop="cycle"
+                                        highlight-color="rgb(0,0,0)"
+                                        command="lib://%%album%% IS %album%"/>
+
+                                <!--  歌手标签 
+                                        font-size 字号推荐大小
+                                        2K:  || 1080P:  || 720P:   -->
+                                 <label name="artist"
+                                        margin-top="2%"
+                                        caption="[%artist%]"
+                                        text-align="left"
+                                        text-color="rgba(0,0,0,0.5)"
+                                        font-size="16"
+                                        width="90%"
+                                        height="auto"
+                                        loop="cycle"
+                                        highlight-color="rgb(0,0,0)"
+                                        command="lib://%artist%"/>
+
+
+
+                        <!-- 剩余播放时间 
+                                font-size 字号推荐大小
+                                2K:  || 1080P:  || 720P:   -->
+                         <label name="playback_time_remaining"
+                                caption="%playback_time_remaining%"
+                                text-color="rgba(0,0,0,0.8)"
+                                font-size="16"
+                                text-align="right"
+                                width="90%"
+                                height="auto"
+                                margin-top="2%"/>
+                        
+
+
+                        <!-- 播放进度条 -->
+                       <seekbar width="95%"
+                                height="8%"
+                                track-height="8"
+                                thumb-radius="8"
+                                thumb-color="rgba(0,0,0,0.8)"
+                                foreground-color="rgba(0,0,0,0.8))"
+                                background-color="rgba(0,0,0,0.2)"
+                                radius="4"
+                                always-show-thumb="false"
+                                show-lyric-tooltip="true"
+                                free-seek="1"
+                                tooltip-padding="6"/>
+
+
+                        <!-- 当前播放时间 
+                                font-size 字号推荐大小
+                                2K:  || 1080P:  || 720P:   -->
+                         <label name="playback_time"
+                                caption="%playback_time%"
+                                text-color="rgba(0,0,0,0.8)"
+                                font-size="16"
+                                text-align="left"
+                                width="90%"
+                                height="auto"/>
+
+
+                </container>
+
+                
+                
+                <!-- 歌词面板 -->
+                 <lyric width="88%"
+                        height="*"
+                        hide-empty="1"
+                        visibility="0"/>
+
+  </panel>
+
+
+</layout>

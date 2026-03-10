@@ -1,0 +1,310 @@
+<layout xmlns="https://github.com/ESLyric/layout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://github.com/ESLyric/layout ./../Layout.xsd">
+
+<!-- ======= Foobar2000 ESLyric Layout File ======== -->
+<!-- 名称 / Name        : 仿 Apple Music 配置  / imitation-IOS-configuration                                  -->
+<!-- 版本 / Version     : v1.6                                                                                -->
+<!-- 作者 / Author      : gebilaowang66662                                                                    -->
+<!-- 教程链接 / Guide   : https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration -->
+<!-- 最后更新 / Updated : 2026-02-27                                                                          -->
+<!-- =========================================== -->
+
+  <!-- 主面板布局 -->
+  <panel layout="free" name="Horizontal 2"  features="1">
+
+                <!-- 悬浮提示 -->
+                <tooltip background-color= "rgba(255,255,255,0.1)"
+                         font-size="10"/>
+                
+                <container name="left-panel"  layout="stack"  orientation="horizontal" width="100%" height="100%">
+
+                        <!-- 左侧面板 -->
+                        <container name="left-panel"  height="100%" width="45%">
+
+
+                        <!-- 专辑封面容器 -->
+
+                        <container name="albumart" width="80%" height="62%" layout="free">
+
+                                        <!-- 专辑封面阴影 1-->
+
+                                        <button background="images/Cover Shadow.png"
+                                                width="96%"
+                                                height="96%"
+                                                visibility="1"/>
+
+                                        <!-- 封面 1-->
+                                      <albumart width="87%"
+                                                height="87%"
+                                                stub="images/default.png"
+                                                radius="20"
+                                                use-stub="false"
+                                                follow-background="1"
+                                                visibility="1"/>
+
+
+
+                        </container>
+
+                        <!-- 歌曲信息标签容器 -->
+                        <container name="meta-info"  width="80%" height="10%" orientation="horizonal">
+
+                                <!-- 歌曲歌手标签 -->
+                                <container name="info" width="87%" height="100%" >
+
+                                        <!--  歌曲标题标签 
+                                                font-size 字号推荐大小
+                                                2K:  || 1080P:  || 720P:  -->
+                                        <label  name="title"
+                                                caption="%title%"
+                                                text-color="rgb(255,255,255)"
+                                                font-size="23"
+                                                width="100%"
+                                                height="auto"
+                                                loop="cycle" 
+                                                command="lib://%%album%% IS %album%"/>
+
+                                        <!--  歌手标签 
+                                                font-size 字号推荐大小
+                                                2K:  || 1080P:  || 720P:   -->
+                                        <label  name="artist"
+                                                margin-top="14%"
+                                                caption="[%artist%] - %album%"
+                                                text-color="rgba(255,255,255,0.5)"
+                                                font-size="20"
+                                                width="100%"
+                                                height="auto"
+                                                loop="cycle"
+                                                command="lib://%artist%"/>
+
+
+                                </container>
+
+
+
+                        </container>
+
+
+
+
+
+                        <!-- 播放时间显示 -->
+                        <container name="length" orientation="horizontal" width="70%" height="auto" >
+
+                                <!-- 当前播放时间 
+                                font-size 字号推荐大小
+                                2K:  || 1080P:  || 720P:   -->
+                                <label name="playback_time"
+                                        caption="%playback_time%"
+                                        text-align="left"
+                                        text-color="rgba(255,255,255,0.3)"
+                                        font-size="18"
+                                        width="auto"
+                                        min-width="45"
+                                        height="auto" />
+
+                                <!-- 播放进度条 
+                                track-height thumb-radius(同)推荐大小
+                                2K:  || 1080P:  || 720P:   -->
+                               <seekbar width="*"
+                                        height="100%"
+                                        track-height="7"
+                                        thumb-radius="7"
+                                        thumb-color="rgba(255,255,255,0.8)"
+                                        foreground-color="rgba(255,255,255,0.8)"
+                                        background-color="rgba(255,255,255,0.2)"
+                                        radius="4"
+                                        always-show-thumb="false"
+                                        show-lyric-tooltip="true"
+                                        free-seek="1"
+                                        tooltip-padding="6"/>
+
+                                <!-- 剩余播放时间 
+                                font-size 字号推荐大小
+                                2K:  || 1080P:  || 720P:   -->
+                                <label  name="playback_time_remaining"
+                                        caption="-%playback_time_remaining%"
+                                        text-align="right"
+                                        text-color="rgba(255,255,255,0.3)"
+                                        font-size="18"
+                                        width="auto"
+                                        min-width="50"
+                                        height="auto" />
+
+
+                        </container>
+
+                        <!-- 控制按钮组 -->
+                        <container name="ctrl" orientation="horizontal"  width="73%" height="10%" >
+
+                                <!-- 音量按钮 通用数值 -->
+                                <props  id="volume" 
+                                        width="5%"
+                                        height="100%"
+                                        margin-top="12%"
+                                        margin-left="1%"
+                                        aspect-ratio="1.0"/>
+
+                                <!-- 音量 -->
+                                <button props="volume" 
+                                        background="images/volume+.png"
+                                        command="esl://Mute"
+                                        visibility="$ifequal(%fb2k_volume_level_5%,0,0,1)"/>
+
+                                <button props="volume" 
+                                        background="images/Mute.png"
+                                        command="esl://Mute"
+                                        visibility="$ifequal(%fb2k_volume_level_5%,0,1,0)"/>
+
+                                <!-- 音量条 
+                                track-height thumb-radius(同)推荐大小
+                                2K:  || 1080P:  || 720P:   -->
+                                <volume width="18%"
+                                        height="100%"
+                                        aspect-ratio="1.0"
+                                        track-height="7"
+                                        thumb-radius="7"
+                                        margin-right="8%"
+                                        margin-top="12%"
+                                        thumb-color="rgba(255,255,255,0.8)"
+                                        foreground-color="rgba(255,255,255,0.8)"
+                                        background-color="rgba(255,255,255,0.2)"
+                                        radius="4"
+                                        always-show-thumb="false"/>
+
+
+
+                                <!-- 播放按钮 通用数值 -->
+                                <props  id="play" 
+                                        width="10%"
+                                        height="100%"
+                                        aspect-ratio="1.0"
+                                        margin-top="12%"/>
+
+                                <!-- 上一曲按钮 -->
+                                <button props="play" 
+                                        background="images/previous.png"
+                                        command="esl://Previous"
+                                        margin-right="3%"/>
+
+                                <!-- 播放/暂停按钮 -->
+                                <button props="play" 
+                                        background="$if($or($not(%isplaying%), %ispaused%),images/play.png,images/pause.png)"
+                                        command="esl://PlayOrPause"/>
+
+                                <!-- 下一曲按钮 -->
+                                <button props="play" 
+                                        background="images/next.png"
+                                        command="esl://Next"
+                                        margin-left="3%"/>
+
+
+                                <!-- 控制按钮 通用数值 -->
+                                <props  id="Control buttons" 
+                                        width="10%"
+                                        height="100%"
+                                        aspect-ratio="1.0"
+                                        margin-left="12%"
+                                        margin-top="12%"/>
+
+                                <!-- 控制按钮 -->
+                                <button props="Control buttons"
+                                        background="$if($or($ifequal(%fb2k_playback_order%,0,1,0),$ifequal(%fb2k_playback_order%,1,1,0),$ifequal(%fb2k_playback_order%,2,1,0)),images/Single loop.png,images/cycling_Close.png)"
+                                        command="esl://PlaybackOrderRepeatPlaylist"
+                                        visibility="$ifequal(%fb2k_playback_order%,0,1,0)"/>
+
+                                <button props="Control buttons"
+                                        background="images/cycling.png"
+                                        command="esl://PlaybackOrderRepeatTrack"
+                                        visibility="$ifequal(%fb2k_playback_order%,1,1,0)"/>
+
+                                <button props="Control buttons"
+                                        background="images/Single loop.png"
+                                        command="esl://PlaybackOrderShuffleTracks"
+                                        visibility="$ifequal(%fb2k_playback_order%,2,1,0)"/>
+
+                                <button props="Control buttons"
+                                        background="images/Random.png"
+                                        command="esl://PlaybackOrderDefault"
+                                        visibility="$ifequal(%fb2k_playback_order%,3,1,$ifequal(%fb2k_playback_order%,4,1,$ifequal(%fb2k_playback_order%,5,1,$ifequal(%fb2k_playback_order%,6,1,0))))"/>
+
+                                <!-- 当前播放音轨属性按钮 -->
+                                <button props="Control buttons"
+                                        background="images/Properties1.png"
+                                        command="esl://Properties"
+                                        anchor="right"
+                                        margin-left="0%" />
+
+
+                        </container>
+
+
+                                        
+                        <!-- 
+                        频谱 三种形态
+                        classic/simple-bar/wave
+                        -->
+                        <visualization  type="spectrum"
+                                        width="70%"
+                                        height="4%"
+
+                                        spectrum="wave"
+
+                                        mirror="1"              
+                                        bands="118"
+                                        segs="0"                   
+                                        hi-color="rgba(255,255,255,1)"
+                                        lo-color="rgba(255,255,255,0.5)"
+                                        
+                                        bar-color="rgba(255, 255, 255, 0.8)"  
+
+                                        thickness="2"
+                                        grow="2" 
+                                        grow-radius="6"   
+                                        back-color="rgba(255, 255, 255, 0)" 
+                                        back-outline-color="rgb(255, 255, 255,0.8)" 
+                                        front-color="rgba(255, 255, 255, 0.8)" 
+                                        front-outline-color="rgba(255, 255, 255, 0)"
+
+                                        visibility="1" /> 
+
+                        </container>
+
+                        <!-- 右侧面板 -->
+                        <container name="right-panel" height="100%" width="55%" hide-empty="1"  >
+
+                                <!-- 歌词面板 -->
+                                 <lyric width="90%"
+                                        height="87%"
+                                        hide-empty="1"/>
+
+
+                        </container>
+
+                </container>
+
+                        <!-- 歌词开关 
+                        根据是否有歌词显示按钮
+                        The condition used to determine the button’s visibility based on whether lyrics are present is:
+                        
+                        visibility="$ifequal(%esl_has_playing_lyric%,1,1,0)"
+
+                        始终显示
+                        always show the button:
+
+                        visibility="0"
+                        -->
+                        <button background="images/lyric.png"
+                                command="mm://${lyric}"
+                                margin-right="2%"
+                                margin-bottom="3%"
+                                anchor="right,bottom"
+                                width="2%"
+                                aspect-ratio="1.0"
+                                visibility="0"/>
+
+  </panel>
+
+
+</layout>

@@ -1,0 +1,151 @@
+<layout xmlns="https://github.com/ESLyric/layout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://github.com/ESLyric/layout ./../Layout.xsd">
+
+<!-- ======= Foobar2000 ESLyric Layout File ======== -->
+<!-- 名称 / Name        : 仿 Apple Music 配置  / imitation-IOS-configuration                                  -->
+<!-- 版本 / Version     : v1.6                                                                                -->
+<!-- 作者 / Author      : gebilaowang66662                                                                    -->
+<!-- 教程链接 / Guide   : https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration -->
+<!-- 最后更新 / Updated : 2026-02-27                                                                          -->
+<!-- =========================================== -->
+
+  <!-- 主面板布局 -->
+  <panel layout="free" name="Horizontal 2 No control" orientation="horizontal" features="1">
+
+                <!-- 悬浮提示 -->
+                <tooltip background-color= "rgba(255,255,255,0.1)"
+                        font-size="10"/>
+                
+
+                <container name="panel" layout="stack"  orientation="horizontal" height="100%" width="100%">
+
+                        <!-- 左侧面板 -->
+                        <container name="left-panel"  width="45%" height="100%">
+
+
+                                <!-- 专辑封面容器 -->
+
+                                <container name="albumart" width="60%" height="62%" layout="free">
+
+                                <!-- 专辑封面阴影 1-->
+
+                                        <button background="images/Cover Shadow.png"
+                                                width="93%"
+                                                height="93%"
+                                                visibility="1"/>
+
+                                        <!-- 封面 1-->
+                                      <albumart width="87%"
+                                                height="87%"
+                                                stub="images/default.png"
+                                                radius="20"
+                                                use-stub="false"
+                                                follow-background="1"
+                                                visibility="1"/>
+
+
+
+                                </container>
+
+
+
+                                <!--  歌曲标题标签 
+                                                font-size 字号推荐大小
+                                                2K:  || 1080P:  || 720P:  -->
+                                 <label name="title"
+                                        caption="%title%"
+                                        text-color="rgb(255,255,255)"
+                                        font-size="22"
+                                        margin-top="2%"
+                                        width="52%"
+                                        height="auto"
+                                        loop="cycle" 
+                                        command="lib://%%album%% IS %album%"/>
+
+                                <!--  歌手标签 
+                                                font-size 字号推荐大小
+                                                2K:  || 1080P:  || 720P:   -->
+                                 <label name="artist"
+                                        margin-top="2%"
+                                        caption="[%artist%] - %album%"
+                                        text-color="rgba(255,255,255,0.5)"
+                                        font-size="18"
+                                        width="52%"
+                                        height="auto"
+                                        loop="cycle"
+                                        command="lib://%artist%"/>
+
+
+
+
+
+                                <!-- 
+                                频谱 三种形态
+                                classic/simple-bar/wave
+                                -->
+                                 <visualization type="spectrum"
+                                                width="52%"
+                                                height="6%"
+
+                                                spectrum="wave"
+
+                                                mirror="1"              
+                                                bands="118"
+                                                segs="0"                   
+                                                hi-color="rgba(255,255,255,1)"
+                                                lo-color="rgba(255,255,255,0.5)"
+                                                
+                                                bar-color="rgba(255, 255, 255, 0.8)"  
+
+                                                thickness="2"
+                                                grow="2" 
+                                                grow-radius="6"   
+                                                back-color="rgba(255, 255, 255, 0)" 
+                                                back-outline-color="rgb(255, 255, 255,0.8)" 
+                                                front-color="rgba(255, 255, 255, 0.8)" 
+                                                front-outline-color="rgba(255, 255, 255, 0)"
+
+                                                visibility="1" /> 
+
+                        </container>
+
+                        <!-- 右侧面板 -->
+                        <container name="right-panel" height="100%" width="55%" hide-empty="1" justify="start" >
+
+                                <!-- 歌词面板 -->
+                                <lyric  width="90%"
+                                        height="100%"
+                                        hide-empty="1"/>
+
+
+                        </container>
+
+                </container>
+
+                        <!-- 歌词开关 
+                        根据是否有歌词显示按钮
+                        The condition used to determine the button’s visibility based on whether lyrics are present is:
+                        
+                        visibility="$ifequal(%esl_has_playing_lyric%,1,1,0)"
+
+                        始终显示
+                        always show the button:
+
+                        visibility="0"
+                        -->
+                        <button background="images/lyric.png"
+                                command="mm://${lyric}"
+                                margin-right="1%"
+                                margin-bottom="2%"
+                                anchor="right,bottom"
+                                width="auto"
+                                height="5%"
+                                aspect-ratio="1.0"
+                                visibility="0"/>
+
+
+  </panel>
+
+
+</layout>

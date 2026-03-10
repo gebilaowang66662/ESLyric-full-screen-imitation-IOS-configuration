@@ -1,0 +1,219 @@
+<layout xmlns="https://github.com/ESLyric/layout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://github.com/ESLyric/layout ./../Layout.xsd">
+
+<!-- ======= Foobar2000 ESLyric Layout File ======== -->
+<!-- 名称 / Name        : 仿 Apple Music 配置  / imitation-IOS-configuration                                  -->
+<!-- 版本 / Version     : v1.6                                                                                -->
+<!-- 作者 / Author      : gebilaowang66662                                                                    -->
+<!-- 教程链接 / Guide   : https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration -->
+<!-- 最后更新 / Updated : 2026-02-27                                                                          -->
+<!-- =========================================== -->
+
+  <!-- 主面板布局 -->
+  <panel name="Mini 2" features="1" >
+
+                <!-- 悬浮提示 -->
+                <tooltip background-color= "rgba(255,255,255,0.1)"
+                        text-color="rgb(0,0,0)"
+                        font-size="10"/>
+
+                
+                <!-- 专辑封面容器 -->
+                <container name="albumart"  width="100%" height="*" layout="free"  min-height="15" hide-min="1">
+
+                
+                                <!-- 大专辑封面 -->
+                                <albumart width="100%"
+                                        aspect-ratio="1.0"
+                                        radius="1"
+                                        stub="images/default.png"
+                                        use-stub="false"
+                                        follow-background="1"
+                                        visibility="$ifequal(%esl_has_playing_lyric%,0,1,0)"/>
+
+
+                        <!-- 歌词容器 -->
+                        <container name="lyric"  width="100%" height="100%" orientation="vertical" justify="start"  >
+
+
+                                        <container name="Ctrl"  width="100%" height="25"  orientation="horizonal" justify="end" margin-top="10" >
+                                                <!-- 全屏 -->
+                                                <button background="images/dark_Fullscreen.png"
+                                                        command="mm://${Fullscreen}"
+                                                        margin-right="14"
+                                                        height="100%"
+                                                        aspect-ratio="1.0"/>
+
+                                                <!-- 关闭悬浮窗 -->
+                                                <button background="images/dark_Closeflowin.png"
+                                                        command="mm://${Floating Lyric}"
+                                                        height="100%"
+                                                        margin-right="16"
+                                                        aspect-ratio="1.0"/>
+
+                                        </container>
+
+                                        <!-- 歌词面板 -->
+                                        <lyric  width="88%"
+                                                height="*"
+                                                hide-empty="1"
+                                                min-height="80" 
+                                                hide-min="1"/>
+
+
+                        </container>
+
+
+                                <!-- 
+                                频谱 三种形态
+                                classic/simple-bar/wave
+                                -->
+                                <visualization  type="spectrum"
+                                                width="100%"
+                                                height="100"
+                                                anchor="bottom"
+
+                                                spectrum="wave"
+
+                                                mirror="1"              
+                                                bands="600"
+                                                segs="0"                   
+                                                hi-color="rgba(255,255,255,1)"
+                                                lo-color="rgba(255,255,255,0.5)"
+                                                
+                                                bar-color="rgba(255, 255, 255, 0.8)"  
+
+                                                thickness="2"
+                                                grow="2" 
+                                                grow-radius="6"   
+                                                back-color="rgb(0, 0, 0)" 
+                                                back-outline-color="rgb(255, 255, 255)" 
+                                                front-color="rgba(255,255,255,1)" 
+                                                front-outline-color="rgb(0, 0, 0)"/> 
+
+
+                </container>
+
+                
+                        <container name="bottom"  width="100%" height="100" layout="free" >
+
+                                <!-- 白色背景 -->
+                                <image  width="100%"
+                                        height="100%"
+                                        background-color="rgba(255,255,255,1)"/>
+
+                                <!-- 关闭悬浮窗 -->
+                                <button command="mm://${Floating Lyric}"
+                                        width="60"
+                                        height="10%"
+                                        anchor="top,right"/>
+
+                                <container name="albumart"  width="100%" height="100%" orientation="vertical" >
+
+
+                                        <container name="Ctrl"  width="100%" height="86%"  orientation="horizonal" >
+
+                                                        <!-- 专辑封面 mask="images/Record.png"-->
+                                                     <albumart  width="auto"
+                                                                height="70%"
+                                                                margin-left="8"
+                                                                aspect-ratio="1.0"
+                                                                radius="10"
+                                                                stub="images/default.png"
+                                                                use-stub="false"
+                                                                follow-background="1"
+                                                                shadow="1"
+                                                                shadow-color="rgba(0,0,0,0.8)"
+                                                                shadow-intensity="5"
+                                                                rotate="0"
+                                                                rotate-speed="1"
+                                                                visibility="$ifequal(%esl_has_playing_lyric%,0,0,1)"/>
+
+
+                                                        <container name="text"  width="*" height="100%" >
+                                                                <!--  歌曲标题标签 
+                                                                                font-size 字号推荐大小
+                                                                                2K:  || 1080P:  || 720P:  -->
+                                                                <label  name="title"
+                                                                        caption="%title%"
+                                                                        text-align="left"
+                                                                        text-color="rgb(0,0,0)"
+                                                                        font-size="18"
+                                                                        width="auto"
+                                                                        height="auto"
+                                                                        anchor="left"
+                                                                        margin-left="10"
+                                                                        loop="cycle"
+                                                                        highlight-color="rgb(0,0,0)"
+                                                                        command="lib://%%album%% IS %album%"/>
+
+                                                                <!--  歌手标签 
+                                                                                font-size 字号推荐大小
+                                                                                2K:  || 1080P:  || 720P:   -->
+                                                                <label  name="artist"
+                                                                        margin-top="12%"
+                                                                        caption="[%artist%]"
+                                                                        text-align="left"
+                                                                        text-color="rgba(0,0,0,0.5)"
+                                                                        font-size="16"
+                                                                        width="auto"
+                                                                        height="auto"
+                                                                        anchor="left"
+                                                                        margin-left="10"
+                                                                        loop="cycle"
+                                                                        highlight-color="rgb(0,0,0)"
+                                                                        command="lib://%artist%"/>
+
+
+                                                        </container>
+                                        
+                                                        <!-- 播放按钮 通用数值 -->
+                                                        <props  id="play" 
+                                                                width="auto"
+                                                                height="60%"
+                                                                aspect-ratio="1.0"/>        
+
+                                                        <!-- 上一曲按钮 -->
+                                                        <button props="play"
+                                                                background="images/dark_previous.png"
+                                                                command="esl://Previous"
+                                                                margin-right="6"/>
+
+                                                        <!-- 播放/暂停按钮 -->
+                                                        <button props="play"
+                                                                background="$if($or($not(%isplaying%), %ispaused%),images/dark_play.png,images/dark_pause.png)"
+                                                                command="esl://PlayOrPause"/>
+
+                                                        <!-- 下一曲按钮 -->
+                                                        <button props="play"
+                                                                background="images/dark_next.png"
+                                                                command="esl://Next"
+                                                                margin-left="6"
+                                                                margin-right="6"/>
+                                        
+
+                                        </container>
+
+                                <!-- 播放进度条 -->
+                               <seekbar width="100%"
+                                        height="15%"
+                                        track-height="16"
+                                        foreground-color="rgba(0,0,0,0.5)"
+                                        background-color="rgba(0,0,0,0.1)"
+                                        show-lyric-tooltip="true"
+                                        free-seek="1"
+                                        tooltip-padding="6"/>
+
+
+                                </container>
+
+
+
+                        </container>
+      
+
+  </panel>
+
+
+</layout>
