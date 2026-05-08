@@ -30,7 +30,7 @@ Mini視窗
 <img width="200" height="200" alt="VR$QMT4BQVS(3O$RU$GU9T8" src="https://github.com/user-attachments/assets/6da3771e-611b-439f-808a-abaec9109321" />
 
   **`Mini 6.xml`**   
-<img width="200" height="250" alt="VR$QMT4BQVS(3O$RU$GU9T8" src="https://github.com/user-attachments/assets/bc3603ee-7e86-4932-9147-44e011e2c83e" />
+<img width="250" height="200" alt="VR$QMT4BQVS(3O$RU$GU9T8" src="https://github.com/user-attachments/assets/bc3603ee-7e86-4932-9147-44e011e2c83e" />
 
 
 底欄
