@@ -50,33 +50,33 @@ Horizontal Screen
 
 **`Horizontal.xml`**
 
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/596107d2-4869-4fd7-8316-2e0e54c5b95a" />
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/5886626f-0e3e-4142-a008-94a8de2c4e05" />
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/596107d2-4869-4fd7-8316-2e0e54c5b95a" />
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/5886626f-0e3e-4142-a008-94a8de2c4e05" />
 
 
 **`Horizontal 2.xml`**
 
-<img width="600" height="400" alt="~B617BR1F6ORQUX$X}FICVD" src="https://github.com/user-attachments/assets/e99ebc9a-a46d-4cb2-94c3-4806538a8266" />
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/d5d6fa61-9ba8-4523-bed0-5fee48f09cdd" />
+<img width="640" height="360" alt="~B617BR1F6ORQUX$X}FICVD" src="https://github.com/user-attachments/assets/e99ebc9a-a46d-4cb2-94c3-4806538a8266" />
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/d5d6fa61-9ba8-4523-bed0-5fee48f09cdd" />
 
 **`Horizontal 3.xml`**
 
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/4c617948-fe38-4fa6-a95b-0a4e65ee454d" />
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/bf9bbb93-b4d9-46bd-8b62-3511314527c8" />
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/4c617948-fe38-4fa6-a95b-0a4e65ee454d" />
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/bf9bbb93-b4d9-46bd-8b62-3511314527c8" />
 
 Componentless Horizontal 2 (with existing bottom bars)
 
 **`Horizontal 2 No control.xml `**
 
-<img width="600" height="400" alt="8EV0U`Z}4VS$~~TC 1742O4" src="https://github.com/user-attachments/assets/c4739768-0247-4894-b9c2-6d4c7de2b7ea" />
-<img width="600" height="400" alt="$%M_G 13QVJF`44AN766FGU" src="https://github.com/user-attachments/assets/dd55a2cd-d456-4627-b8be-a3fe97de6f3f" />
+<img width="640" height="360" alt="8EV0U`Z}4VS$~~TC 1742O4" src="https://github.com/user-attachments/assets/c4739768-0247-4894-b9c2-6d4c7de2b7ea" />
+<img width="640" height="360" alt="$%M_G 13QVJF`44AN766FGU" src="https://github.com/user-attachments/assets/dd55a2cd-d456-4627-b8be-a3fe97de6f3f" />
 
 Derived layouts and reversed layouts
 **`XXXX.1.xml`** **`XXXX.2.xml `** **`XXXX Rev.xml `**
 
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/65090c58-45eb-4f05-9846-c237eba1c381" />
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/60f101a8-477e-494c-a5c3-9abe4366915a" />
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/a4c342b8-be31-4d74-ae9f-5210517c60a3" />
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/65090c58-45eb-4f05-9846-c237eba1c381" />
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/60f101a8-477e-494c-a5c3-9abe4366915a" />
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/a4c342b8-be31-4d74-ae9f-5210517c60a3" />
 
 Control-free Horizontal/Vertical Screen (Use with existing bottom bar)  
 
